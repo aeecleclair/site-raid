@@ -1,28 +1,41 @@
 import { Component } from 'react';
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 
 class CustomNavBar extends Component {
     state = {  }
     render() {
         return (
-            <Navbar bg="light" expand="lg">
-                <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">Link</Nav.Link>
-                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                    </NavDropdown>
+            <Navbar  collapseOnSelect  variant='light' expand="lg" bg="light">
+                <Navbar.Brand className='logo-app' >
+                    <div class="container-fluid">
+                        <img
+                        src={process.env.PUBLIC_URL + 'assets/logo.png'}
+                        width='75'
+                        height='70'
+                        className='d-inline-block align-top'
+                        alt='logo'
+                        />
+                    </div>
+                </Navbar.Brand>
+                <Navbar.Brand className='brand'>
+                    <h2>Raid Centrale Lyon</h2>
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbar-toggler-css"/>
+                <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-start">
+                    <Nav>
+                        <Nav.Link href='/' className='test'>Accueil</Nav.Link>
+                        <Nav.Link href='/raid' className='test'>Raid 2022</Nav.Link>
+                        <Nav.Link href='/equipe' className='test'>L'équipe</Nav.Link>
+                        <Nav.Link href='/partenaires' className='test'>Nos Partenaires</Nav.Link>
+                        <Nav.Link href='/infos' className='test'>Infos Pratiques</Nav.Link>
+                        <Nav.Link href ='/galerie' className='test'>Galerie</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                </Container>
+                <Navbar.Collapse id="responsive-navbar-nav" className = "justify-content-end">
+                    <Nav>
+                        <Nav.Link href ='/inscription' className='test'>Inscription</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Navbar>
         );
     }
