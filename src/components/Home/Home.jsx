@@ -19,7 +19,7 @@ class Home extends Component {
                 </Slide>
                 <Slide>
                 <PageSponsor/>
-                    <Footer/>
+                    <Footer fullpage={true}/>
                 </Slide>
             </FullPage>
         );

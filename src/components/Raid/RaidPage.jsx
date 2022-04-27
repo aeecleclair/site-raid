@@ -3,6 +3,7 @@ import { FullPage, Slide } from 'react-full-page';
 import Formule from './formule';
 import Echeance from './echeance';
 import AvantGout from './avantgout';
+import Footer from '../footer';
 
 
 class Home extends Component {
@@ -18,6 +19,7 @@ class Home extends Component {
                 </Slide>
                 <Slide>
                     <Echeance/>
+                    <Footer fullpage={true}/>
                 </Slide>
             </FullPage>
         );

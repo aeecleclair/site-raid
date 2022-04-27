@@ -1,5 +1,5 @@
 import { Component } from 'react';
-
+import Footer from '../footer';
 class PageEquipe extends Component {
     state = {  }
     render() {
@@ -33,14 +33,14 @@ class PageEquipe extends Component {
                         "fonction": "Responsable Parcours",
                     },
                     {
-                        "nom": "LAURENS-BERGE",
-                        "prenom": "Rémi",
-                        "fonction": "Log-Parcours",
-                    },
-                    {
                         "nom": "ROUCHER",
                         "prenom": "Maxime",
                         "fonction": "Responsable Sécurité",
+                    },
+                    {
+                        "nom": "LAURENS-BERGE",
+                        "prenom": "Rémi",
+                        "fonction": "VP Log-Parcours",
                     },
                     {
                         "nom": "BOUSCAILLOU",
@@ -84,7 +84,7 @@ class PageEquipe extends Component {
                     },
                     {
                         "nom": "ORTALO",
-                        "preom": "Théodore",
+                        "prenom": "Théodore",
                         "fonction": "VP Sponsors",
                     },
                     {
@@ -116,7 +116,7 @@ class PageEquipe extends Component {
             },
         ]
         return (
-            <div className='view under-navbar'>
+            <div className='view under-navbar equipe'>
                 <h1>L'ÉQUIPE</h1>
                 {poles.map((pole, index) => {
                         return (
@@ -128,7 +128,7 @@ class PageEquipe extends Component {
                                             return (
                                                 <div className='membre' key={index}>
                                                     <div className='headshot headshot-1'>
-                                                        <img src={'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=350&h=350&fit=crop&crop=faces'} alt={membre.nom} />
+                                                        <img src={process.env.PUBLIC_URL + "assets/IMG_0591.jpg"} alt={membre.nom} />
                                                     </div>
                                                     <div className='membre-text'>
                                                         <h3>{membre.prenom} {membre.nom}</h3>
@@ -143,6 +143,7 @@ class PageEquipe extends Component {
                         )
                     })
                 }
+                <Footer fullpage={false}/>
             </div>
         );
     }

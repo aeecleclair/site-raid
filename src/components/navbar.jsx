@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 class CustomNavBar extends Component {
     state = {  }
@@ -26,8 +26,12 @@ class CustomNavBar extends Component {
                         <Nav.Link href='/' className='test'>Accueil</Nav.Link>
                         <Nav.Link href='/raid' className='test'>Raid 2022</Nav.Link>
                         <Nav.Link href='/equipe' className='test'>L'équipe</Nav.Link>
-                        <Nav.Link href='/partenaires' className='test'>Nos Partenaires</Nav.Link>
-                        <Nav.Link href='/infos' className='test'>Infos Pratiques</Nav.Link>
+                        <NavDropdown title="Partenaires" id="basic-nav-dropdown" className='test'>
+                            <NavDropdown.Item href="/nos-partenaires">Nos Partenaires</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="/devenir-partenaire">Devenir partenaire</NavDropdown.Item>
+                        </NavDropdown>
+                        <Nav.Link href='/infos-pratiques' className='test'>Infos Pratiques</Nav.Link>
                         <Nav.Link href ='/galerie' className='test'>Galerie</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

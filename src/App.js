@@ -7,6 +7,7 @@ import PageEquipe from './components/Equipe/pageEquipe';
 import InfoPage from './components/Info/infoPage';
 import PageGalerie from './components/Galerie/galeriePage';
 import PagePartenaires from './components/Partenaires/partenairePage';
+import DevenirPage from './components/devenirPart/devenirPage';
 
 function App() {
   return (
@@ -16,10 +17,12 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/raid" element={<RaidPage/>}/>
-            <Route path="/partenaires" element={<PagePartenaires/>}/>
+            <Route path="/nos-partenaires" element={<PagePartenaires/>}/>
+            <Route path="/devenir-partenaire" element={<DevenirPage/>}/>
             <Route path="/equipe" element={<PageEquipe/>}/>
-            <Route path="/infos" element={<InfoPage/>}/>
+            <Route path="/infos-pratiques" element={<InfoPage/>}/>
             <Route path="/galerie" element={<PageGalerie/>}/>
+            <Route path="/inscription" />
           </Routes>
       </BrowserRouter>
     </div>
