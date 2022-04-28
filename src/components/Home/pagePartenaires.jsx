@@ -15,7 +15,7 @@ class PageSponsor extends Component {
                 {imgs.map((img, index) => {
                     return (
                         <div className='sponsors-image'>
-                            <img src={process.env.PUBLIC_URL + img} alt="" height={100} width={"auto"}/>
+                            <img src={process.env.PUBLIC_URL + img} alt="" height={120} width={300} style={{objectFit: "contain"}}/>
                         </div>
                     )
                 })}

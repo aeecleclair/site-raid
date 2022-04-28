@@ -8,6 +8,7 @@ import InfoPage from './components/Info/infoPage';
 import PageGalerie from './components/Galerie/galeriePage';
 import PagePartenaires from './components/Partenaires/partenairePage';
 import DevenirPage from './components/devenirPart/devenirPage';
+import InscriptionPage from './components/Inscription/inscriptionPage';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             <Route path="/equipe" element={<PageEquipe/>}/>
             <Route path="/infos-pratiques" element={<InfoPage/>}/>
             <Route path="/galerie" element={<PageGalerie/>}/>
-            <Route path="/inscription" />
+            <Route path="/inscription" element={<InscriptionPage/>}/>
           </Routes>
       </BrowserRouter>
     </div>
@@ -30,3 +31,15 @@ function App() {
 }
 
 export default App;
+
+
+/* TODO:
+        Accueil : (photo) / style page video + (text) / (liste sponso)
+        Equipe : (photo) + mail + cas 5 pers
+        inscription : embed formulaire + (text)
+        Admin : regrouper tt text ds 1 fichier + photo + video + pdf + ...
+        Raid 22 : (text) + (date échéances) + (style avec tps)
+        partenaires : (liste sponso) + (logo) + (date) + (text) + (text devenir partenaire)
+        info pratiques : (liste question - réponse) + (autres caté) ?
+        galerie : (photo) + (video) + (text)
+*/

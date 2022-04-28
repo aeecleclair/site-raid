@@ -9,9 +9,10 @@ class DevenirPage extends Component {
                 <div className='devenir-container'>
                     <div>
                     <h1>Devenir partenaire</h1>
-                        <h5>
-                            Iure architecto doloribus eligendi quas laborum distinctio. Voluptatem enim est voluptatem eos delectus. Veniam rem voluptatem ullam facilis reiciendis excepturi repellendus voluptatem. Odio vel voluptate excepturi eos corporis distinctio ipsum.
-                        </h5>
+                    <h5>
+                        Iure architecto doloribus eligendi quas laborum distinctio. Voluptatem enim est voluptatem eos delectus. Veniam rem voluptatem ullam facilis reiciendis excepturi repellendus voluptatem. Odio vel voluptate excepturi eos corporis distinctio ipsum.
+                    </h5>
+                    <h5>Votre Contact : Corentin Brault - 0637812858 - <a href='mailto: corentin.brault@ecl21.ec-lyon.fr'>corentin.brault@ecl21.ec-lyon.fr</a></h5>
                     </div>
                     <div className='devenir-mot'>
                         <h2>
@@ -31,12 +32,12 @@ class DevenirPage extends Component {
                     </div>
                     {/* https://codepen.io/kathykato/pen/rZRaNe */}
                     <div id="container">
-                        <button class="learn-more">
+                        <a class="learn-more" href={process.env.PUBLIC_URL + "pdf/Plaquette promotionelle.pdf"}>
                             <span class="circle" aria-hidden="true">
                             <span class="icon arrow"></span>
                             </span>
                             <span class="button-text">Télécharger la plaquette</span>
-                        </button>
+                        </a>
                     </div>
                     <div/>
                 </div>

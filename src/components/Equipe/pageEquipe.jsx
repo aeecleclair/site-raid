@@ -116,7 +116,7 @@ class PageEquipe extends Component {
             },
         ]
         return (
-            <div className='view under-navbar equipe'>
+            <div className='view under-navbar'>
                 <h1>L'ÉQUIPE</h1>
                 {poles.map((pole, index) => {
                         return (
