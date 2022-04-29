@@ -14,5 +14,5 @@ class AvantGout extends Component {
         );
     }
 }
- 
+
 export default AvantGout;

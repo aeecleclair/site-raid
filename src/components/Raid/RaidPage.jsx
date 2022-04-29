@@ -4,7 +4,7 @@ import Formule from './formule';
 import Echeance from './echeance';
 import AvantGout from './avantgout';
 import Footer from '../footer';
-
+import CustomNavBar from '../navbar';
 
 class Home extends Component {
     state = {  }
@@ -12,6 +12,7 @@ class Home extends Component {
         return (
             <FullPage>
                 <Slide>
+                    <CustomNavBar/>
                     <AvantGout/>
                 </Slide>
                 <Slide>
@@ -19,7 +20,6 @@ class Home extends Component {
                 </Slide>
                 <Slide>
                     <Echeance/>
-                    <Footer fullpage={true}/>
                 </Slide>
             </FullPage>
         );

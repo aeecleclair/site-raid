@@ -4,26 +4,27 @@ import { FullPage, Slide } from 'react-full-page';
 import PagePresentation from './pagePresentation';
 import PageSponsor from './pagePartenaires';
 import Footer from '../footer';
+import CustomNavBar from '../navbar';
 
 
 class Home extends Component {
-    state = {  } 
-    render() { 
+    state = {  }
+    render() {
         return (
             <FullPage>
                 <Slide>
-                <CustomCarousel />
+                    <CustomNavBar/>
+                    <CustomCarousel />
                 </Slide>
                 <Slide>
-                <PagePresentation/>
+                    <PagePresentation/>
                 </Slide>
                 <Slide>
-                <PageSponsor/>
-                    <Footer fullpage={true}/>
+                    <PageSponsor/>
                 </Slide>
             </FullPage>
         );
     }
 }
- 
+
 export default Home;

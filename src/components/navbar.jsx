@@ -7,7 +7,7 @@ class CustomNavBar extends Component {
         return (
             <Navbar  collapseOnSelect  variant='light' expand="lg" bg="light">
                 <Navbar.Brand className='logo-app' >
-                    <div class="container-fluid">
+                    <div className="container-fluid">
                         <img
                         src={process.env.PUBLIC_URL + 'assets/logo.png'}
                         width='75'

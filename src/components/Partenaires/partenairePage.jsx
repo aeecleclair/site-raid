@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Footer from '../footer';
+import CustomNavBar from '../navbar';
 
 class PagePartenaires extends Component {
     state = {  }
@@ -50,29 +51,32 @@ class PagePartenaires extends Component {
             },
         ]
         return (
-            <div className='view under-navbar'>
-                <h1>PARTENAIRES</h1>
-                <div className='partenaire-container'>
-                    {parts.map((part, index) => {
-                        return (
-                            <div className='partenaire-image'>
-                                <img src={process.env.PUBLIC_URL + part.img} alt="" height={100} width={"auto"}/>
-                                <div className='partenaire-descr'>
-                                    <h3>{part.nom}</h3>
-                                    {part.edition.length > 0 ? <h6>Editions : {part.edition.join(', ')}</h6> : <h6>Nouveau partenaire !</h6>}
-                                    <h6>{part.descr}</h6>
-                                    <div className='partenaire-url'>
-                                        <h6>En savoir plus : </h6>
-                                        <a href={part.url} target="_blank" rel="noopener noreferrer">
-                                            <h6>{part.url}</h6>
-                                        </a>
+            <div>
+                <CustomNavBar/>
+                <div className='view under-navbar'>
+                    <h1>PARTENAIRES</h1>
+                    <div className='partenaire-container'>
+                        {parts.map((part, index) => {
+                            return (
+                                <div className='partenaire-image'>
+                                    <img src={process.env.PUBLIC_URL + part.img} alt="" height={100} width={"auto"}/>
+                                    <div className='partenaire-descr'>
+                                        <h3>{part.nom}</h3>
+                                        {part.edition.length > 0 ? <h6>Editions : {part.edition.join(', ')}</h6> : <h6>Nouveau partenaire !</h6>}
+                                        <h6>{part.descr}</h6>
+                                        <div className='partenaire-url'>
+                                            <h6>En savoir plus : </h6>
+                                            <a href={part.url} target="_blank" rel="noopener noreferrer">
+                                                <h6>{part.url}</h6>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        )
-                    })}
+                            )
+                        })}
+                    </div>
+                    <Footer fullpage={false}/>
                 </div>
-                <Footer fullpage={false}/>
             </div>
         );
     }

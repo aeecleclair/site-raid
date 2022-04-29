@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Footer from '../footer';
+import CustomNavBar from '../navbar';
 class PageInfo extends Component {
     state = {  }
     render() {
@@ -18,24 +19,27 @@ class PageInfo extends Component {
             },
         ]
         return (
-            <div className='view under-navbar'>
-                <div className='info-container'>
-                    <h1>INFOS PRATIQUES</h1>
-                    <div className='info-content'>
-                        <h2>Questions fréquentes</h2>
-                        <div className='info-content-item-content'>
-                            {qa.map((q, index) => {
-                                return (
-                                    <div className='info-content-item-content-item'>
-                                        <h3>{q.question}</h3>
-                                        <h5>{q.reponse}</h5>
-                                    </div>
-                                )
-                            })}
+            <div>
+                <CustomNavBar/>
+                <div className='view under-navbar'>
+                    <div className='info-container'>
+                        <h1>INFOS PRATIQUES</h1>
+                        <div className='info-content'>
+                            <h2>Questions fréquentes</h2>
+                            <div className='info-content-item-content'>
+                                {qa.map((q, index) => {
+                                    return (
+                                        <div className='info-content-item-content-item'>
+                                            <h3>{q.question}</h3>
+                                            <h5>{q.reponse}</h5>
+                                        </div>
+                                    )
+                                })}
+                            </div>
                         </div>
                     </div>
+                    <Footer fullpage={false}/>
                 </div>
-                <Footer fullpage={false}/>
             </div>
         );
     }
