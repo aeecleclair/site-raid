@@ -1,4 +1,3 @@
-import { Component } from 'react';
 import Footer from '../footer';
 import CustomNavBar from '../navbar';
 import { useState } from 'react';
@@ -19,7 +18,7 @@ export default function PagePartenaires() {
             <div className='view under-navbar'>
                 <h1>NOS PARTENAIRES</h1>
                 <div className='partenaire-container'>
-                    {data.map((part, index) => {
+                    {data ? data.map((part, index) => {
                         return (
                             <div className='partenaire-image'>
                                 <img src={process.env.PUBLIC_URL + "assets/partenaires/images/" + part.img} alt="" height={100} width={"auto"}/>
@@ -36,7 +35,7 @@ export default function PagePartenaires() {
                                 </div>
                             </div>
                         )
-                    })}
+                    }): ""}
                 </div>
                 <Footer fullpage={false}/>
             </div>

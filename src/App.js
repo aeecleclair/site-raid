@@ -32,7 +32,6 @@ export default App;
 
 
 /* TODO:
-page sponsors
 inscription : embed formulaire + (text)
 
         Raid 22 : (text / date échéances)

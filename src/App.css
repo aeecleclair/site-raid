@@ -759,19 +759,19 @@
 
   .sponsors-container {
     position: relative;
-    width: 60%;
-    left: 20%;
-    padding-top: 50px;
+    width: 100%;
+    top: 20vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
+    justify-content: space-evenly;
   }
 
-  .sponsors-image img {
-    padding: 10px;
-    height: 120px;
-    width: 300px;
+  .sponsors-image {
+    height: 240px;
+    width: 500px;
+    margin-right: 50px;
+    object-fit: contain;
   }
 
   .pole {

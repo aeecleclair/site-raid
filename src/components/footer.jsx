@@ -1,11 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Component } from 'react';
 import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
 
-export default function Footer() {
+export default function Footer(props) {
     const [data, setData] = useState([]);
-    fetch('assets/partenaires/partenaires.json')
+    fetch('assets/footer/footer.json')
         .then(res => res.json())
         .then(json => setData(json))
         .catch(
@@ -13,7 +12,7 @@ export default function Footer() {
             console.log(err, ' error')
             }
         )
-    var c = this.props.fullpage ? "footer1": "footer2";
+    var c = props.fullpage ? "footer1": "footer2";
     return (
         <div className={c}>
             <div className='footer-container'>

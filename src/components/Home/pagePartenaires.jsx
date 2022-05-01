@@ -1,5 +1,6 @@
 import Footer from '../footer';
 import { useState } from 'react';
+import Marquee from "react-fast-marquee";
 
 export default function PageSponsor() {
     const [data, setData] = useState([]);
@@ -15,13 +16,13 @@ export default function PageSponsor() {
         <div>
             <div className='view lastpage'>
                 <h1>NOS PARTENAIRES</h1>
-                    <div className='sponsors-container'>
-                    {data.map((part, index) => {
-                        return (
-                            <img src={process.env.PUBLIC_URL + "assets/partenaires/images/" + part.img} key={index} width={50}/>
-                        )
-                    })}
-                </div>
+                    <Marquee className='sponsors-container' speed={100}>
+                        {data.map((part, index) => {
+                            return (
+                                <img src={process.env.PUBLIC_URL + "assets/partenaires/images/" + part.img} key={index} alt="" className="sponsors-image"/>
+                            )
+                        })}
+                </Marquee>
             </div>
             <Footer fullpage={false}/>
         </div>

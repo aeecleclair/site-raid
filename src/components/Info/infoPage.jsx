@@ -1,4 +1,3 @@
-import { Component } from 'react';
 import Footer from '../footer';
 import CustomNavBar from '../navbar';
 import { useState } from 'react';
