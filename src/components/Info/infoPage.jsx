@@ -1,48 +1,40 @@
 import { Component } from 'react';
 import Footer from '../footer';
 import CustomNavBar from '../navbar';
-class PageInfo extends Component {
-    state = {  }
-    render() {
-        const qa = [
-            {
-                "question": "Dolores ipsam deleniti aperiam nam pariatur.",
-                "reponse": "Quibusdam deserunt quasi sed voluptatem sapiente sint. Et sed unde. Dolor sint qui quia molestiae impedit sapiente. Neque sint labore. Voluptatem iste aliquid aliquam. Ut et minima natus reprehenderit."
-            },
-            {
-                "question": "Qui quia quisquam quisquam.",
-                "reponse": "Quibusdam deserunt quasi sed voluptatem sapiente sint. Et sed unde. Dolor sint qui quia molestiae impedit sapiente. Neque sint labore. Voluptatem iste aliquid aliquam. Ut et minima natus reprehenderit."
-            },
-            {
-                "question": "Qui quia quisquam quisquam.",
-                "reponse": "Quibusdam deserunt quasi sed voluptatem sapiente sint. Et sed unde. Dolor sint qui quia molestiae impedit sapiente. Neque sint labore. Voluptatem iste aliquid aliquam. Ut et minima natus reprehenderit."
-            },
-        ]
-        return (
-            <div>
-                <CustomNavBar/>
-                <div className='view under-navbar'>
-                    <div className='info-container'>
-                        <h1>INFOS PRATIQUES</h1>
-                        <div className='info-content'>
-                            <h2>Questions fréquentes</h2>
-                            <div className='info-content-item-content'>
-                                {qa.map((q, index) => {
-                                    return (
-                                        <div className='info-content-item-content-item'>
-                                            <h3>{q.question}</h3>
-                                            <h5>{q.reponse}</h5>
-                                        </div>
-                                    )
-                                })}
-                            </div>
+import { useState } from 'react';
+
+export default function InfoPage() {
+    const [data, setData] = useState([]);
+    fetch('assets/info/info.json')
+        .then(res => res.json())
+        .then(json => setData(json))
+        .catch(
+            function(err){
+            console.log(err, ' error')
+            }
+        )
+    return (
+        <div>
+            <CustomNavBar/>
+            <div className='view under-navbar'>
+                <div className='info-container'>
+                    <h1>INFOS PRATIQUES</h1>
+                    <div className='info-content'>
+                        <h2>Questions fréquentes</h2>
+                        <div className='info-content-item-content'>
+                            {data ? data.map((q, index) => {
+                                return (
+                                    <div className='info-content-item-content-item'>
+                                        <h3>{q.question}</h3>
+                                        <h5>{q.reponse}</h5>
+                                    </div>
+                                )
+                            }): ""}
                         </div>
                     </div>
-                    <Footer fullpage={false}/>
                 </div>
+                <Footer fullpage={false}/>
             </div>
-        );
-    }
+        </div>
+    );
 }
-
-export default PageInfo;

@@ -1,7 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './components/Home/Home';
-import CustomNavBar from './components/navbar';
 import RaidPage from './components/Raid/RaidPage';
 import PageEquipe from './components/Equipe/pageEquipe';
 import InfoPage from './components/Info/infoPage';
@@ -33,10 +32,8 @@ export default App;
 
 
 /* TODO:
-Responsive : Home : pagePrest°
-
+page sponsors
 inscription : embed formulaire + (text)
-Admin : regrouper tt text ds 1 fichier + photo + video + pdf + ...
 
         Raid 22 : (text / date échéances)
         Accueil : (photo / text / liste sponso)
@@ -44,6 +41,4 @@ Admin : regrouper tt text ds 1 fichier + photo + video + pdf + ...
         partenaires : (liste sponso / logo / date / text / text devenir partenaire)
         info pratiques : (liste question - réponse / autres caté ?)
         galerie : (photo / video / text)
-
-
 */

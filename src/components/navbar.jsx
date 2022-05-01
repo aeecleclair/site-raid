@@ -1,6 +1,10 @@
 import { Component } from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
+export function getCurrentDate(separator='/'){
+  return new Date().getFullYear();
+}
+
 class CustomNavBar extends Component {
     state = {  }
     render() {
@@ -24,7 +28,7 @@ class CustomNavBar extends Component {
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-start">
                     <Nav>
                         <Nav.Link href='/' className='test'>Accueil</Nav.Link>
-                        <Nav.Link href='/raid' className='test'>Raid 2022</Nav.Link>
+                        <Nav.Link href='/raid' className='test'>Raid {getCurrentDate()}</Nav.Link>
                         <Nav.Link href='/equipe' className='test'>L'équipe</Nav.Link>
                         <NavDropdown title="Partenaires" id="basic-nav-dropdown" className='test'>
                             <NavDropdown.Item href="/nos-partenaires">Nos Partenaires</NavDropdown.Item>

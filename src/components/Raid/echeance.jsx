@@ -1,25 +1,37 @@
-import { Component } from 'react';
 import Timeline from '@mui/lab/Timeline';
 import EcheanceItem from './echeanceItem';
 import Footer from '../footer';
+import { useState } from 'react';
 
-class Echeance extends Component {
-    state = {  }
-    render() {
-        return (
-          <div>
-            <div className='view echeance lastpage'>
-              <h1>LES ÉCHÉANCES</h1>
-              <Timeline position='alternate' className='timeline'>
-                <EcheanceItem title="Inscriptions" dateDebut="25/04/2022" dateFin="26/04/2022" description="Unde omnis error dicta et. Tenetur autem est voluptatum debitis rerum. Qui hic aut illum neque dolore quia occaecati id. Asperiores eius fuga." isInverted={false} isFinal={false}/>
-                <EcheanceItem title="Validation des dossiers" dateDebut="25/04/2022" dateFin="01/10/2022" description="Unde omnis error dicta et. Tenetur autem est voluptatum debitis rerum. Qui hic aut illum neque dolore quia occaecati id. Asperiores eius fuga." isFinal={false} isInverted={true}/>
-                <EcheanceItem title="Raid" dateDebut="08/10/2022" dateFin="09/10/2022" description="Unde omnis error dicta et. Tenetur autem est voluptatum debitis rerum. Qui hic aut illum neque dolore quia occaecati id. Asperiores eius fuga." isFinal={true} isInverted={false}/>
+export default function Echeance() {
+    const [data, setData] = useState([]);
+    fetch('assets/Raid/echeances/echeance.json')
+        .then(res => res.json())
+        .then(json => setData(json))
+        .catch(
+            function(err){
+            console.log(err, ' error')
+            }
+        )
+      return (
+        <div>
+          <div className='view echeance lastpage'>
+            <h1>LES ÉCHÉANCES</h1>
+            <Timeline position='alternate' className='timeline'>
+              {data.map((echeance, index) => (
+                <EcheanceItem
+                  key={index}
+                  title={echeance.nom}
+                  dateDebut={echeance.dateDebut}
+                  dateFin={echeance.dateFin}
+                  description={echeance.description}
+                  isInverted={index % 2 !== 0}
+                  isFinal={index === data.length - 1}
+                />
+              ))}
               </Timeline>
-            </div>
-            <Footer fullpage={true}/>
           </div>
-          
-        );
-    }
-}
-export default Echeance;
+          <Footer fullpage={true}/>
+        </div>
+      );
+  }
