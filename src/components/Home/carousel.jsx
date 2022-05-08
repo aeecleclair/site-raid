@@ -16,7 +16,7 @@ export default function CustomCarousel() {
             {data.map((d, index) => {
                 return (
                     <Carousel.Item>
-                        <img className="d-block w-100 image600" src={d.img} alt={d.title}/>
+                        <img className="d-block w-100 image600" src={process.env.PUBLIC_URL + "assets/home/carousel/images/" +  d.img} alt={d.title}/>
                         <Carousel.Caption>
                             <h3>{d.title}</h3>
                             <p>{d.description}</p>

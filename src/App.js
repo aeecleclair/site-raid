@@ -16,12 +16,12 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/raid" element={<RaidPage/>}/>
-            <Route path="/nos-partenaires" element={<PagePartenaires/>}/>
-            <Route path="/devenir-partenaire" element={<DevenirPage/>}/>
             <Route path="/equipe" element={<PageEquipe/>}/>
-            <Route path="/infos-pratiques" element={<InfoPage/>}/>
             <Route path="/galerie" element={<PageGalerie/>}/>
+            <Route path="/infos-pratiques" element={<InfoPage/>}/>
             <Route path="/inscription" element={<InscriptionPage/>}/>
+            <Route path="/devenir-partenaire" element={<DevenirPage/>}/>
+            <Route path="/nos-partenaires" element={<PagePartenaires/>}/>
           </Routes>
       </BrowserRouter>
     </div>
@@ -32,12 +32,16 @@ export default App;
 
 
 /* TODO:
-inscription : embed formulaire + (text)
+        coder hover -> click
+        responsive (Home : pres / partenaires, Raid 22: Formule / Echéance, Equipe)
+        verif page inscr avec Klavyh
+        image nette + assombrisst PXL
 
-        Raid 22 : (text / date échéances)
-        Accueil : (photo / text / liste sponso)
-        Equipe : (photo)
-        partenaires : (liste sponso / logo / date / text / text devenir partenaire)
-        info pratiques : (liste question - réponse / autres caté ?)
-        galerie : (photo / video / text)
+        inscription : formulaire d'inscription
+        Raid 22 : text / date échéances
+        Accueil : photo / text / liste sponso
+        Equipe : photo
+        partenaires : liste sponso / logo / date / text / text devenir partenaire
+        info pratiques : liste question - réponse / autres caté ?
+        galerie : photo
 */

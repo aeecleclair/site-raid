@@ -1,6 +1,7 @@
-import Footer from '../footer';
+import CustomFooter from '../footer';
 import CustomNavBar from '../navbar';
 import { useState } from 'react';
+import $ from "jquery";
 
 export default function PagePartenaires() {
     const [data, setData] = useState([]);
@@ -12,6 +13,9 @@ export default function PagePartenaires() {
             console.log(err, ' error')
             }
         )
+    var h = $(window).height();
+    var h2 = $(".partenaire-container").height();
+    var h3 = h2 - h + 196;
     return (
         <div>
             <CustomNavBar/>
@@ -37,7 +41,7 @@ export default function PagePartenaires() {
                         )
                     }): ""}
                 </div>
-                <Footer fullpage={false}/>
+                <CustomFooter fullpage={false} isSticked={h3 < 0}/>
             </div>
         </div>
     );

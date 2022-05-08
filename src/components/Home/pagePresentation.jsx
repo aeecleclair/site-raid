@@ -12,16 +12,13 @@ export default function PagePresentation() {
           }
       )
       return (
-        <div className='view presentation'>
+        <div className='view presentation full-page'>
           <h1>RAID CENTRALE LYON</h1>
           <div className='pres'>
             <div className='video'>
               <div>
-                <iframe src={data.url} title="Raid 2021 (Crédit PIXELS)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe src={data.url} title="Le Raid en image" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
-              {/* <span>
-                Raid 2021 (Crédit PIXELS)
-              </span> */}
             </div>
             <div/>
             <div className='descr'>

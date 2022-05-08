@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
 
-export default function Footer(props) {
+export default function CustomFooter(props) {
     const [data, setData] = useState([]);
     fetch('assets/footer/footer.json')
         .then(res => res.json())
@@ -13,6 +13,9 @@ export default function Footer(props) {
             }
         )
     var c = props.fullpage ? "footer1": "footer2";
+    if (props.isSticked) {
+      c += " footer-fixed";
+    }
     return (
         <div className={c}>
             <div className='footer-container'>

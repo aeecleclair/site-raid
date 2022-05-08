@@ -1,6 +1,6 @@
 import Timeline from '@mui/lab/Timeline';
 import EcheanceItem from './echeanceItem';
-import Footer from '../footer';
+import CustomFooter from '../footer';
 import { useState } from 'react';
 
 export default function Echeance() {
@@ -15,23 +15,26 @@ export default function Echeance() {
         )
       return (
         <div>
-          <div className='view echeance lastpage'>
+          <div className='view echeance lastpage full-page'>
             <h1>LES ÉCHÉANCES</h1>
+            <div className='blur'/>
             <Timeline position='alternate' className='timeline'>
-              {data.map((echeance, index) => (
-                <EcheanceItem
-                  key={index}
-                  title={echeance.nom}
-                  dateDebut={echeance.dateDebut}
-                  dateFin={echeance.dateFin}
-                  description={echeance.description}
-                  isInverted={index % 2 !== 0}
-                  isFinal={index === data.length - 1}
-                />
-              ))}
+              <div className='timeline-content'>
+                {data.map((echeance, index) => (
+                  <EcheanceItem
+                    key={index}
+                    title={echeance.nom}
+                    dateDebut={echeance.dateDebut}
+                    dateFin={echeance.dateFin}
+                    description={echeance.description}
+                    isInverted={index % 2 !== 0}
+                    isFinal={index === data.length - 1}
+                  />
+                ))}
+              </div>
               </Timeline>
           </div>
-          <Footer fullpage={true}/>
+          <CustomFooter fullpage={true}/>
         </div>
       );
   }

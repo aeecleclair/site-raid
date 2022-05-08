@@ -1,0 +1,22 @@
+[
+    {
+        "nom": "Découverte",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quia.Doloribus qui velit id et dolore est. Laborum fugiat quam optio eveniet. At repellat aut officia earum inventore nisi velit cumque dolor. Autem unde necessitatibus animi sit omnis exercitationem est dolorum quidem. Fugiat temporibus est.",
+        "km": "10",
+        "dp": "120",
+        "dm": "80"
+    },
+    {
+        "nom": "Sportif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quia.Doloribus qui velit id et dolore est. Laborum fugiat quam optio eveniet. At repellat aut officia earum inventore nisi velit cumque dolor. Autem unde necessitatibus animi sit omnis exercitationem est dolorum quidem. Fugiat temporibus est.",
+        "km": "20",
+        "dp": "120",
+        "dm": "80"
+    }, {
+        "nom": "Expert",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quia.Doloribus qui velit id et dolore est. Laborum fugiat quam optio eveniet. At repellat aut officia earum inventore nisi velit cumque dolor. Autem unde necessitatibus animi sit omnis exercitationem est dolorum quidem. Fugiat temporibus est.",
+        "km": "50",
+        "dp": "120",
+        "dm": "80"
+    }
+]

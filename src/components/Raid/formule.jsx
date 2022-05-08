@@ -12,7 +12,7 @@ export default function Formule() {
             }
         )
       return (
-        <div className='view'>
+        <div className='view full-page'>
           <h1>LES FORMULES</h1>
           <div className='formule-container'>
               {data.map((formule, index) => (

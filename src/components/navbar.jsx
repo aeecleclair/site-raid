@@ -41,7 +41,7 @@ class CustomNavBar extends Component {
                 </Navbar.Collapse>
                 <Navbar.Collapse id="responsive-navbar-nav" className = "justify-content-end">
                     <Nav>
-                        <Nav.Link href ='/inscription' className='test'>Inscription</Nav.Link>
+                        <Nav.Link href ='/inscription' className='test test2'>Inscription</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
