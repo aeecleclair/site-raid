@@ -3,7 +3,7 @@ import CustomNavBar from '../navbar';
 import { useState } from 'react';
 import $ from 'jquery';
 
-export default function InscriptionPage() {
+export default function AvantGout() {
     const [data, setData] = useState([]);
     fetch('assets/inscription/inscription.json')
         .then(res => res.json())
