@@ -44,6 +44,7 @@
 
 .full-page {
   width: 100vw;
+  height: 100%;
 }
 
 .image600 {
@@ -75,10 +76,10 @@
 
 .presentation {
   background: no-repeat 50% 50% url(./../public/assets/5169546.jpg);
-  background-size: 100% auto;
+  background-size: 110% 110%;
   /* width: 100%; */
   height: 100vh;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .panorama {
@@ -561,10 +562,10 @@
 
   .echeance {
     background: no-repeat 50% 50% url(./../public/assets/5169546.jpg);
-    background-size: 100% auto;
+    background-size: 100% 100%;
     width: 100%;
     height: calc(100vh - 100px);
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .echeance-container {
@@ -637,7 +638,7 @@
     align-items: center;
     /* margin-bottom: 5vh; */
     justify-content: center;
-    height: 18vw;
+    height: 20vw;
     color: #ffffff;
     background: url(../public/assets/home/carousel/images/8.jpg) center center no-repeat;
     background-blend-mode: normal;
@@ -649,10 +650,12 @@
 
   .formule-item {
     transform: skew(10deg);
+    height: 100%;
+    justify-content: space-between;
   }
 
   .formule-content {
-    margin-top: 20px;
+    margin-top: .8vw;
     transition: opacity .6s linear;
     opacity: 0;
     font-size: 1.1vw;
@@ -665,13 +668,14 @@
   .formule-title {
     position: relative;
     transition: all 1s ease-out;
-    top: 100px;
+    top: 5vw;
     color: #ffffff;
   }
 
   .formule-title h1 {
     font-size: 35px;
     color: #ffffff;
+    padding-top: calc(6vw - 50px);
   }
 
   .formule:hover {
@@ -701,7 +705,7 @@
     position: relative;
     transition: all 1s ease-out;
     top: -80px;
-    margin-top: 20px;
+    margin-top: .8vw;
     opacity: 0;
     display: flex;
     flex-direction: row;
@@ -746,8 +750,28 @@
     left: 15vw;
   }
 
+  .sponsors-container {
+    position: relative;
+    width: 100%;
+    top: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+  }
 
-@media only screen and (min-width: 1001px) {
+  .sponsors-image {
+    height: 240px;
+    width: 500px;
+    margin-right: 50px;
+    object-fit: contain;
+  }
+
+.navbar-toggler {
+  margin-right: 15px;
+}
+
+@media only screen and (min-width: 1024px) {
 
   .pres {
     display: flex;
@@ -851,22 +875,6 @@
     width: 80%;
   }
 
-  .sponsors-container {
-    position: relative;
-    width: 100%;
-    top: 20vh;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-evenly;
-  }
-
-  .sponsors-image {
-    height: 240px;
-    width: 500px;
-    margin-right: 50px;
-    object-fit: contain;
-  }
 
   .pole {
     padding-top: 50px;
@@ -949,7 +957,7 @@
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1023px) {
 
   .brand h2 {
     font-size: 18px;
@@ -957,7 +965,7 @@
 
   .pres {
     display: flex;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 100px);
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -966,12 +974,13 @@
   .video {
     position: relative;
     top: 3vh;
-    left: calc(50% - 30vw);
+    left: max(calc(50% - 30vw), calc(50% - (20vh * 800 / 450)));
+    margin-bottom: 3vh;
   }
 
   .video iframe {
-    height: calc(450 / 800 * 60vw);
-    width: 60vw;
+    height: min(calc(60vw * 450 / 800), 40vh);
+    width: min(60vw, calc(40vh * 800 / 450));
     border-radius: 20px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   }
@@ -979,7 +988,7 @@
   .descr {
     position: relative;
     left: calc(50% - 40vw);
-    top: 5vh;
+    /* top: 10vh; */
     height: auto;
     width: 80vw;
     background: rgba(255, 255, 255, 0.668);
@@ -1006,63 +1015,81 @@
     margin-bottom: 20px;
   }
 
-de
-  .sponsors-container {
-    position: relative;
-    width: 60%;
-    left: 20%;
-    height: 100px;
-    padding-top: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(179, 28, 28);
-    display: grid;
-    overflow: hidden;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-  }
-
-  .sponsors-image img {
-    padding: 10px;
+  .sponsors-image {
     height: 120px;
-    width: 300px;
-    object-fit: contain;
+    width: 250px;
+    margin-right: 25px;
   }
 
   .formule-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    height: 85%;
+    margin-top: 2vw;
+  }
+
+  .formule {
+    width: 70vw;
     justify-content: center;
+    margin: 1vw;
+    margin-bottom: 5vh;
   }
 
-    .echeance {
-    background: url(./../public/assets/5169546.jpg) no-repeat center center fixed;
-    width: 100%;
-    height: calc(100vh - 100px);
-    object-fit: cover;
+  .formule-content {
+    font-size: max(1.3vw, 1.8vh);
   }
 
-  .echeance-container {
+  .formule-title {
+    top: max(2vw, 5vh);
+  }
+
+  .formule-title h1 {
+    font-size: min(35px, 4vh);
+    color: #ffffff;
+    margin-top: calc(2vh - 1.2 * (100vw - 1023px) / 1023);
+  }
+
+  .formule-data span {
+    font-size: max(1.4vw, 2.2vh);
+  }
+
+  .formule-icon {
     position: relative;
-    top: -5vh;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.556);
-    border-radius: 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    height: max(2vw, 3vh);
+    top: calc(max(2vw, 3vh) / 2 - 10px);
   }
 
-  .inverted {
-    position: relative;
+
+  .timeline {
+    width: 80%;
     left: 10%;
+    height: 80%;
+  }
+
+  .timeline-content {
+    position: relative;
+    top: -3vw;
+    width: 100%;
+  }
+
+  .echeance-item {
+    /* background-color: #282c34; */
+    height: 50%;
+  }
+
+  .echeance-text {
+    width: 90%;
+    font-size: 1.3vw;
+  }
+
+  .echeance-container h3 {
+    font-size: 2.1vw;
+  }
+
+  .echeance-date {
+    font-size: 1.6vw;
   }
 
    .info-container {
@@ -1074,4 +1101,16 @@ de
     align-items: center;
     justify-content: flex-start;
   }
+
+  .membres {
+    flex-direction: column;
+  }
+
+  .membre {
+    position: relative;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+  }
+
 }

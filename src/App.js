@@ -7,7 +7,7 @@ import InfoPage from './components/Info/infoPage';
 import PageGalerie from './components/Galerie/galeriePage';
 import PagePartenaires from './components/Partenaires/partenairePage';
 import DevenirPage from './components/devenirPart/devenirPage';
-import InscriptionPage from './components/inscription/inscriptionPage';
+import InscriptionPage from './components/Inscription/inscriptionPage';
 
 function App() {
   return (
@@ -33,7 +33,7 @@ export default App;
 
 /* TODO:
         coder hover -> click
-        responsive (Home : pres / partenaires, Raid 22: Formule / Echéance, Equipe)
+        responsive (Raid 22: Formule (pb avec vh))
         verif page inscr avec Klavyh
         image nette + assombrisst PXL
 

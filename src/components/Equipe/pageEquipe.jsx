@@ -26,9 +26,9 @@ export default function PageEquipe() {
                                         pole.membres.map((membre, index) => {
                                             return (
                                                 <div className='membre' key={index}>
-                                                    {/* <div className='headshot headshot-1'>
+                                                    <div className='headshot headshot-1'>
                                                         <img src={process.env.PUBLIC_URL + "assets/IMG_0591.jpg"} alt={membre.nom} />
-                                                    </div> */}
+                                                    </div>
                                                     <div className='membre-text'>
                                                         <h3>{membre.prenom} {membre.nom}</h3>
                                                         <a href={'mailto:' + membre.mail}>{membre.mail}</a>
