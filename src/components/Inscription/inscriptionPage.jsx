@@ -20,37 +20,39 @@ export default function InscriptionPage() {
       <div>
         <CustomNavBar />
         <div className="view under-navbar">
-          <div className="inscr-container">
-            <h1>INSCRIPTION</h1>
-            <div className="inscr-content">
-              <h5>{data.description}</h5>
+          <div className="inscr-back">
+            <div className="inscr-container">
+              <h1>INSCRIPTION</h1>
+              <div className="inscr-content">
+                <h5>{data.description}</h5>
+              </div>
+              <div className="lien">
+                <h5>
+                  Lien du Google Form : {" "}
+                  <a
+                    href={data.lienGGDoc}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {data.lienGGDoc}
+                  </a>
+                </h5>
+              </div>
+              <div className="lien">
+                <h5>
+                  Lien du Lydia : {" "}
+                  <a
+                    href={data.lienLydia}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {data.lienLydia}
+                  </a>
+                </h5>
+              </div>
             </div>
-            <div className="lien">
-              <h5>
-                Lien du Google Form : {" "}
-                <a
-                  href={data.lienGGDoc}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {data.lienGGDoc}
-                </a>
-              </h5>
-            </div>
-            <div className="lien">
-              <h5>
-                Lien du Lydia : {" "}
-                <a
-                  href={data.lienLydia}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {data.lienLydia}
-                </a>
-              </h5>
-            </div>
+            <CustomFooter fullpage={false} isSticked={h3 < 0} />
           </div>
-          <CustomFooter fullpage={false} isSticked={h3 < 0} />
         </div>
       </div>
     );
