@@ -1,3 +1,40 @@
+@font-face {
+    font-family: 'Titre';
+    src: url(./../public/fonts/Capture\ it.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "Texte";
+  src: url(./../public/fonts/ERASMD.TTF) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Texte";
+  src: url(./../public/fonts/ERASDEMI.TTF) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Texte";
+  src: url(./../public/fonts/ERASBD.TTF) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+* {
+    font-family: 'Texte'
+}
+
+* h1 {
+    font-family: "Titre";
+}
+
 .App {
   text-align: center;
 }
@@ -431,7 +468,7 @@
 }
 
 a.learn-more {
-  width: 330px;
+  width: 350px;
   height: auto;
   position: relative;
   display: inline-block;
@@ -763,6 +800,15 @@ a:hover .button-text {
 .navbar-toggler {
   margin-right: 15px;
 }
+
+.galerie-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
 
 @media only screen and (min-width: 1024px) {
 
@@ -1172,18 +1218,21 @@ a:hover .button-text {
   }
 
   .footer1 .links {
-    margin-top: 0px;
+    margin-top: -5px;
     margin-left: 20px;
   }
 
-
   .footer2 .links a {
-    margin-left: 3vw;
+    margin-left: 0;
     margin-top: 25px;
   }
 
   .footer2 .footer-container2 .links {
     margin-top: 15px;
+  }
+
+  .footer1 .footer-container2 .links {
+    margin-top: 12px;
   }
 
   .brand {

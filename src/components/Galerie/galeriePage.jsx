@@ -2,6 +2,7 @@ import CustomNavBar from '../navbar';
 import CustomFooter from '../footer';
 import { useState } from 'react';
 import $ from "jquery";
+import Gallery from "react-grid-gallery";
 
 export default function PageGalerie() {
     const [data, setData] = useState([]);
@@ -22,9 +23,10 @@ export default function PageGalerie() {
           <div className="view under-navbar">
             <h1>GALERIE</h1>
             <div className="galerie-container">
-
+                {h3}
+              {data !== [] ? <Gallery images={data}  className="image-grid"/> : <></>}
             </div>
-            <CustomFooter fullpage={false} isSticked={h3 < 0} />
+            <CustomFooter fullpage={false}/>
           </div>
         </div>
       );
