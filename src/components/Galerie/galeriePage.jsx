@@ -1,7 +1,6 @@
 import CustomNavBar from '../navbar';
 import CustomFooter from '../footer';
 import { useState } from 'react';
-import $ from "jquery";
 import Gallery from "react-grid-gallery";
 
 export default function PageGalerie() {
@@ -14,19 +13,33 @@ export default function PageGalerie() {
             console.log(err, ' error')
             }
         )
-    var h = $(window).height();
-    var h2 = $(".galerie-container").height();
-    var h3 = h2 - h + 196;
       return (
         <div>
           <CustomNavBar />
           <div className="view under-navbar">
             <h1>GALERIE</h1>
             <div className="galerie-container">
-                {h3}
-              {data !== [] ? <Gallery images={data}  className="image-grid"/> : <></>}
+              {data !== [] ? (
+                <Gallery
+                  images={data.map((img, index) => {
+                    return {
+                      src:
+                        process.env.PUBLIC_URL + "assets/galerie/images/" + img,
+                      thumbnail:
+                        process.env.PUBLIC_URL + "assets/galerie/images/" + img,
+                        thumbnailWidth: 320,
+                        thumbnailHeight: 212,
+                    };
+                  })}
+                  className="image-grid"
+                  imageCountSeparator=" sur "
+                  enableImageSelection={false}
+                />
+              ) : (
+                <></>
+              )}
             </div>
-            <CustomFooter fullpage={false}/>
+            <CustomFooter fullpage={false} />
           </div>
         </div>
       );

@@ -460,6 +460,9 @@
 .devenir-mot {
   color: #42424c;
   width: 70%;
+  border: #217a37 solid 2px;
+  padding: 0 20px 20px 20px;
+  border-radius: 50px 50px 50px 10px;
 }
 
 .devenir-mot h5 {
@@ -481,7 +484,7 @@ a.learn-more {
   padding: 0;
   font-size: inherit;
   font-family: inherit;
-  margin-bottom: 50px;
+  margin: 30px 0 30px 0;
 }
 a.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -566,6 +569,17 @@ a:hover .button-text {
   font-weight: 600;
   color: #42424c;
 }
+.info-content-item-content {
+    margin-bottom: 50px;
+}
+
+.info-content-item-content-item a {
+  color: #42424c;
+}
+
+.info-content-item-content-item a:hover {
+  color: #217a37;
+}
 
 .info-content-item-content {
   width: 100%;
@@ -583,15 +597,18 @@ a:hover .button-text {
 }
 .info-content-item-content-item h3 {
   font-weight: 500;
+  margin-top: 20px;
   color: #42424c;
+  width: 100%;
 }
 
 .info-content-item-content-item h5 {
   margin-top: 10px;
   color: #42424c;
   font-size: 18px;
-  text-align: left;
-  margin-bottom: 20px;
+  text-align: justify;
+  width: 60%;
+  margin-bottom: 5px;
 }
 
 .echeance {
@@ -693,6 +710,7 @@ a:hover .button-text {
   position: relative;
   left: 5%;
   color: #ffffff;
+  font-size: max(1.18vw, 1.2vh);
 }
 
 .formule-title {
@@ -790,6 +808,11 @@ a:hover .button-text {
   justify-content: space-evenly;
 }
 
+.static {
+    position: relative;
+    top: calc(40% - 120px);
+}
+
 .sponsors-image {
   height: 240px;
   width: 500px;
@@ -803,6 +826,7 @@ a:hover .button-text {
 
 .galerie-container {
   margin: 20px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -1051,6 +1075,10 @@ a:hover .button-text {
     font-size: 15px;
     margin-bottom: 20px;
   }
+  .static {
+    position: relative;
+    top: calc(40% - 60px);
+}
 
   .sponsors-image {
     height: 120px;
@@ -1075,21 +1103,21 @@ a:hover .button-text {
   }
 
   .formule-content {
-    font-size: max(1.3vw, 1.8vh);
+    font-size: max(1.5vw, 1.9vh);
   }
 
   .formule-title {
-    top: max(2vw, 5vh);
+    top: max(2vw, 4vh);
   }
 
   .formule-title h1 {
     font-size: min(35px, 4vh);
     color: #ffffff;
-    margin-top: calc(2vh - 1.2 * (100vw - 1023px) / 1023);
+    margin-top: calc(2vh - 50 * (100vw - 1023px) / 1023);
   }
 
   .formule-data span {
-    font-size: max(1.4vw, 2.2vh);
+    font-size: max(1.5vw, 2.2vh);
   }
 
   .formule-icon {

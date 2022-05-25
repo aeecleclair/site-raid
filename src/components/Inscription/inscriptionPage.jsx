@@ -26,30 +26,37 @@ export default function InscriptionPage() {
               <div className="inscr-content">
                 <h5>{data.description}</h5>
               </div>
-              <div className="lien">
-                <h5>
-                  Lien du Google Form : {" "}
-                  <a
-                    href={data.lienGGDoc}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {data.lienGGDoc}
-                  </a>
-                </h5>
-              </div>
-              <div className="lien">
-                <h5>
-                  Lien du Lydia : {" "}
-                  <a
-                    href={data.lienLydia}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {data.lienLydia}
-                  </a>
-                </h5>
-              </div>
+                {
+                    data.lienGGDoc !== "" ?
+                    <div className="lien"><h5>
+                        Lien du Google Form : {" "}
+                        <a
+                            href={data.lienGGDoc}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {data.lienGGDoc}
+                        </a>
+                        </h5>
+                    </div>
+                : <></>
+                }
+              {
+                  data.lienLydia !== "" ?
+                  <div className="lien">
+                    <h5>
+                    Lien du Lydia : {" "}
+                    <a
+                        href={data.lienLydia}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {data.lienLydia}
+                    </a>
+                    </h5>
+                </div>
+                : <></>
+              }
             </div>
             <CustomFooter fullpage={false} isSticked={h3 < 0} />
           </div>

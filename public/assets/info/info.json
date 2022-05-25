@@ -1,13 +1,12 @@
-[{
-        "question": "Dolores ipsam deleniti aperiam nam pariatur.",
-        "reponse": "Quibusdam deserunt quasi sed voluptatem sapiente sint. Et sed unde. Dolor sint qui quia molestiae impedit sapiente. Neque sint labore. Voluptatem iste aliquid aliquam. Ut et minima natus reprehenderit."
+{
+    "mail": "xavier.linet@ecl21.ec-lyon.fr",
+    "faq":
+    [{
+        "question": "De quel matériel a-t-on besoin pour le Raid Centrale Lyon ?",
+        "reponse": "- Kamel Bag (au minimum un par binôme)\n - Lampe frontale\n - Boussole\n - Téléphone chargé(pas de moyen de le recharger pendant tout le week - end)\n - Couverture de survie\n - Sac de couchage et matelas\n - Affaires de sport pour temps froid, chaud, sec et pluvieux\n - Affaires de rechange et affaires de douche"
     },
     {
-        "question": "Qui quia quisquam quisquam.",
-        "reponse": "Quibusdam deserunt quasi sed voluptatem sapiente sint. Et sed unde. Dolor sint qui quia molestiae impedit sapiente. Neque sint labore. Voluptatem iste aliquid aliquam. Ut et minima natus reprehenderit."
-    },
-    {
-        "question": "Qui quia quisquam quisquam.",
-        "reponse": "Quibusdam deserunt quasi sed voluptatem sapiente sint. Et sed unde. Dolor sint qui quia molestiae impedit sapiente. Neque sint labore. Voluptatem iste aliquid aliquam. Ut et minima natus reprehenderit."
+        "question": "Quel type de certificat médical est nécessaire ?",
+        "reponse": "Types de certificats médicaux valides :\n - Un certificat médical de non contre - indication à la pratique en compétition du trail et du VTT\n - Un certificat médical de non contre - indication à la pratique des raids en compétition\n - Un certificat médical de non contre - indication à la pratique en compétition du triathlon\n - Pour les étudiants de Centrale Lyon, le certificat médical du BDS, à condition que les mentions \"Course d'orientation\", \"Cyclisme - VTT\" et \"Rando Raid\" ne soient pas rayées.\nTous les certificats doivent dater de moins d'un an.\nAttention! Un certificat médical précisant uniquement une non contre - indication à la course à pied ne sera pas suffisant!"
     }
-]
+]}

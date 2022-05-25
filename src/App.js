@@ -28,20 +28,13 @@ function App() {
   );
 }
 
+
 export default App;
 
 
 /* TODO:
-        coder hover -> click
-        responsive (Raid 22: Formule (pb avec vh))
-        verif page inscr avec Klavyh
-        image nette + assombrisst PXL
-
-        inscription : formulaire d'inscription
-        Raid 22 : text / date échéances
-        Accueil : photo / text / liste sponso
-        Equipe : photo
-        partenaires : liste sponso / logo / date / text / text devenir partenaire
-        info pratiques : liste question - réponse / autres caté ?
-        galerie : photo
+    Accueil : photo
+    Raid 22 : date échéances (+ texte)
+    Equipe : photo
+    Inscription : formulaire d'inscription + texte
 */
