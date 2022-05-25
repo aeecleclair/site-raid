@@ -1,0 +1,140 @@
+[{
+        "pole": "Bureau",
+        "membres": [{
+                "nom": "MAILLARD",
+                "prenom": "Chloé",
+                "fonction": "Présidente",
+                "mail": "chloe.maillard@ecl21.ecl-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "KAASSIS",
+                "prenom": "Paul",
+                "fonction": "Secrétaire général",
+                "mail": "paul.kaassis@ecl21.ec-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "COULON",
+                "prenom": "Jules",
+                "fonction": "Trésorier",
+                "mail": "jules.coulon@ecl21.ec-lyon.fr",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "pole": "Parcours",
+        "membres": [{
+                "nom": "GATEUIL",
+                "prenom": "Corentin",
+                "fonction": "Responsable Parcours",
+                "mail": "corention.gateuil@ecl21.ec-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "ROUCHER",
+                "prenom": "Maxime",
+                "fonction": "Responsable Sécurité",
+                "mail": "maxime.roucher@ecl21.ec-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "LAURENS-BERGE",
+                "prenom": "Rémi",
+                "fonction": "VP Log-Parcours",
+                "mail": "remi.laurens-berge@ecl21.ec-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "BOUSCAILLOU",
+                "prenom": "Gaëtan",
+                "fonction": "VP Parcours",
+                "mail": "gaetan.bouscaillou@ecl21.ec-lyon.fr",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "pole": "Logistique",
+        "membres": [{
+                "nom": "DKAKI",
+                "prenom": "Zakaria",
+                "fonction": "Responsable Logistique",
+                "mail": "zakaria.dkaki@ecl21.ec-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "PHILIPPE",
+                "prenom": "Florent",
+                "fonction": "VP Logistique",
+                "mail": "florent.philippe@ecl21.ec-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "ROUX",
+                "prenom": "Xavier",
+                "fonction": "VP Logistique",
+                "mail": "xavier.roux@ecl21.ec-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "SPELLE",
+                "prenom": "Rémy",
+                "fonction": "VP Logistique",
+                "mail": "remy.spelle@ecl21.ec-lyon.fr",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "pole": "Sponsors",
+        "membres": [{
+                "nom": "BRAULT",
+                "prenom": "Corentin",
+                "fonction": "Responsable Sponsors",
+                "mail": "corentin.brault@ecl21.ec-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "ORTALO",
+                "prenom": "Théodore",
+                "fonction": "VP Sponsors",
+                "mail": "theodore.ortalo@ecl21.ec-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "PIOLA",
+                "prenom": "Ugo",
+                "fonction": "VP Sponsors",
+                "mail": "ugo.piola@ecl21.ec-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "POSTEC",
+                "prenom": "Loan",
+                "fonction": "VP Sponsors",
+                "mail": "loan.postec@ecl21.ec-lyon.fr",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "pole": "Communication",
+        "membres": [{
+                "nom": "LINET",
+                "prenom": "Xavier",
+                "fonction": "VP Communication",
+                "mail": "xavier.linet@ecl21.ec-lyon.fr",
+                "img": ""
+            },
+            {
+                "nom": "PUJOL",
+                "prenom": "Pierre",
+                "fonction": "VP Communication",
+                "mail": "pierre.pujol@ecl21.ec-lyon.fr",
+                "img": ""
+            }
+        ]
+    }
+]

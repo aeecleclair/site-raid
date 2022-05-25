@@ -1,0 +1,21 @@
+[{
+        "nom": "Découverte",
+        "description": "Le parcours découverte est destiné à toutes celles et ceux qui souhaitent s’initier au trail et au VTT tout en profitant du cadre naturel exceptionnel offert par le massif du Pilat. Il s’adresse en particulier aux personnes plus ou moins sportives qui veulent découvrir le Raid.",
+        "km": "80",
+        "dp": "1200",
+        "dm": "1000"
+    },
+    {
+        "nom": "Sportif",
+        "description": "Le parcours sportif s’adresse à tous ceux qui ont une activité sportive régulière et qui souhaitent sortir de leurs habitudes pour se frotter en équipe de deux à un nouveau défi en pleine nature !",
+        "km": "100",
+        "dp": "1600",
+        "dm": "1300"
+    }, {
+        "nom": "Expert",
+        "description": "Le parcours expert est le plus difficile du Raid Centrale Lyon, avec une distance et un dénivelé redoutables. Il s'adresse avant tout aux sportifs confirmés avec une bonne expérience des efforts d’endurance longue.",
+        "km": "120",
+        "dp": "2000",
+        "dm": "1600"
+    }
+]
