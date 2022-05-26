@@ -17,7 +17,7 @@ export default function AvantGout() {
       .then(() => setCached(data !== undefined))
       .then(() => console.log("data fetched devenir"));
   }
-  if (h3 === 0) {
+  if (h3 === 0 && $(".devenir-container") === undefined) {
     var h = $(window).height();
     var h2 = $(".devenir-container").height();
     seth3(h2 - h + 196);
