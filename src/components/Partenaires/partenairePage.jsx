@@ -17,7 +17,7 @@ export default function PagePartenaires() {
       .then(() => setCached(data !== undefined))
       .then(() => console.log("data fetched partenaires"));
   }
-  if (h3 === 0 && cached) {
+  if (h3 === 0 && $(".partenaire-container") === undefined) {
     var h = $(window).height();
     var h2 = $(".partenaire-container").height();
     seth3(h2 - h + 196);
