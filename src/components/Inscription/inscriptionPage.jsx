@@ -17,12 +17,10 @@ export default function InscriptionPage() {
       .then(() => setCached(data !== undefined))
       .then(() => console.log("data fetched inscription"));
   }
-  if (h3 === 0 && $(".inscr-container") === undefined) {
+  if (h3 === 0 && cached) {
     var h = $(window).height();
     var h2 = $(".inscr-container").height();
-    console.log(h2);
     seth3(h2 - h + 196);
-    console.log(h3);
   }
   return (
     <div>

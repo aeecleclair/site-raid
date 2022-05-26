@@ -17,7 +17,7 @@ export default function InfoPage() {
       .then(() => setCached(data !== undefined))
       .then(() => console.log("data fetched info"));
   }
-  if (h3 === 0 && $(".info-container") === undefined) {
+  if (h3 === 0 && cached) {
     var h = $(window).height();
     var h2 = $(".info-container").height();
     seth3(h2 - h + 196);
