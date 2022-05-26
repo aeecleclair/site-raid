@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Titre';
-    src: url(./../public/fonts/Capture\ it.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Titre";
+  src: url(./../public/fonts/Capture\ it.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -26,13 +26,12 @@
   font-style: normal;
 }
 
-
 * {
-    font-family: 'Texte'
+  font-family: "Texte";
 }
 
 * h1 {
-    font-family: "Titre";
+  font-family: "Titre";
 }
 
 .App {
@@ -131,10 +130,10 @@
 }
 
 .footer1 {
-  position:relative;
-  left:0;
-  bottom:0px;
-  right:0;
+  position: relative;
+  left: 0;
+  bottom: 0px;
+  right: 0;
   height: 100px;
   border-top: 5px solid #2da537;
   background-color: #217a37;
@@ -145,11 +144,11 @@
 }
 
 .footer2 {
-  position:relative;
-  left:0;
-  bottom : 0px;
-  right:0;
-  height:100px;
+  position: relative;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  height: 100px;
   border-top: 5px solid #2da537;
   background-color: #217a37;
   display: flex;
@@ -162,7 +161,7 @@
   position: relative;
   left: 7%;
   display: flex;
-  height:90px;
+  height: 90px;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
@@ -205,7 +204,7 @@
   padding-top: 10px;
 }
 
-.footer1 .footer-title  {
+.footer1 .footer-title {
   padding-top: 0px;
 }
 
@@ -218,7 +217,6 @@
   margin-top: 5px;
   margin-left: 20px;
 }
-
 
 .footer2 .links a {
   margin: 15px;
@@ -267,10 +265,12 @@
   transition: 0.3s;
   background: #217a37;
 }
-.social-button:focus, .social-button:hover {
+.social-button:focus,
+.social-button:hover {
   color: #fff;
 }
-.social-button:focus::after, .social-button:hover::after {
+.social-button:focus::after,
+.social-button:hover::after {
   width: calc(100% + 2px);
   height: calc(100% + 2px);
   margin-left: calc(-50% - 1px);
@@ -427,7 +427,6 @@
   color: #217a37;
 }
 
-
 .devenir-container {
   position: relative;
   display: flex;
@@ -462,7 +461,7 @@
   width: 70%;
   border: #217a37 solid 2px;
   padding: 0 20px 20px 20px;
-  border-radius: 50px 50px 50px 10px;
+  border-radius: 50px 50px 50px 5px;
 }
 
 .devenir-mot h5 {
@@ -570,7 +569,7 @@ a:hover .button-text {
   color: #42424c;
 }
 .info-content-item-content {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .info-content-item-content-item a {
@@ -664,7 +663,6 @@ a:hover .button-text {
   font-size: 1.4vw;
 }
 
-
 .inverted {
   position: relative;
   left: 0%;
@@ -677,17 +675,17 @@ a:hover .button-text {
   font-size: 1vw;
 }
 
-
 .formule {
   flex: 1;
-  transition: .5s;
-  transition-delay: .7s;
+  transition: 0.5s;
+  transition-delay: 0.7s;
   width: 100vw;
   align-items: center;
   justify-content: center;
   height: 20vw;
   color: #ffffff;
-  background: url(../public/assets/home/carousel/images/8.jpg) center center no-repeat;
+  background: url(../public/assets/Raid/formule/images/sombre.png) center center
+    no-repeat;
   background-blend-mode: normal;
   background-size: cover;
   border-radius: 40px;
@@ -702,8 +700,8 @@ a:hover .button-text {
 }
 
 .formule-content {
-  margin-top: .8vw;
-  transition: opacity .6s linear;
+  margin-top: 0.8vw;
+  transition: opacity 0.6s linear;
   opacity: 0;
   font-size: 1.1vw;
   width: 90%;
@@ -733,7 +731,7 @@ a:hover .button-text {
 
 .formule-item:hover > .formule-title {
   transform: translateY(0px);
-  transition-delay: .5s;
+  transition-delay: 0.5s;
   top: 0px;
 }
 
@@ -753,7 +751,7 @@ a:hover .button-text {
   position: relative;
   transition: all 1s ease-out;
   top: -80px;
-  margin-top: .8vw;
+  margin-top: 0.8vw;
   opacity: 0;
   display: flex;
   flex-direction: row;
@@ -770,7 +768,7 @@ a:hover .button-text {
 
 .formule-data span {
   font-weight: 600;
-  margin-left: .8vw;
+  margin-left: 0.8vw;
   font-size: 1.2vw;
 }
 
@@ -809,8 +807,8 @@ a:hover .button-text {
 }
 
 .static {
-    position: relative;
-    top: calc(40% - 120px);
+  position: relative;
+  top: calc(40% - 120px);
 }
 
 .sponsors-image {
@@ -833,9 +831,7 @@ a:hover .button-text {
   justify-content: space-evenly;
 }
 
-
 @media only screen and (min-width: 1024px) {
-
   .pres {
     display: flex;
     flex-direction: row;
@@ -843,15 +839,16 @@ a:hover .button-text {
     justify-content: space-evenly;
   }
 
-  @keyframes an{
-      from{
-          opacity: 0;
-          transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
-      }
-      to{
-          opacity: 1;
-          transform: perspective(500px) translate3d(0, 0, 0);
-      }
+  @keyframes an {
+    from {
+      opacity: 0;
+      transform: perspective(500px) translate3d(-35px, -40px, -150px)
+        rotate3d(1, -1, 0, 35deg);
+    }
+    to {
+      opacity: 1;
+      transform: perspective(500px) translate3d(0, 0, 0);
+    }
   }
 
   .brand {
@@ -937,7 +934,6 @@ a:hover .button-text {
     width: 80%;
   }
 
-
   .pole {
     padding-top: 50px;
   }
@@ -1015,12 +1011,9 @@ a:hover .button-text {
   .form {
     height: calc(100vh - 19px);
   }
-
 }
 
-
 @media only screen and (max-width: 1023px) {
-
   .brand h2 {
     font-size: 18px;
   }
@@ -1078,7 +1071,7 @@ a:hover .button-text {
   .static {
     position: relative;
     top: calc(40% - 60px);
-}
+  }
 
   .sponsors-image {
     height: 120px;
@@ -1155,7 +1148,7 @@ a:hover .button-text {
     font-size: 1.6vw;
   }
 
-   .info-container {
+  .info-container {
     position: relative;
     left: 10%;
     display: flex;
@@ -1177,11 +1170,11 @@ a:hover .button-text {
     justify-content: center;
     flex-direction: column;
   }
-
 }
 
 @media only screen and (max-width: 700px) {
-  .footer1, .footer2 {
+  .footer1,
+  .footer2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1192,7 +1185,7 @@ a:hover .button-text {
     position: relative;
     left: 0%;
     display: flex;
-    height:40px;
+    height: 40px;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
@@ -1236,7 +1229,7 @@ a:hover .button-text {
     padding-top: 10px;
   }
 
-  .footer1 .footer-title  {
+  .footer1 .footer-title {
     padding-top: 10px;
   }
 

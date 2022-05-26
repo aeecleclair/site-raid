@@ -1,33 +1,39 @@
-import { useState } from 'react';
-
+import { useState } from "react";
 
 export default function PagePresentation() {
+  const [cached, setCached] = useState(false);
   const [data, setData] = useState([]);
-  fetch('assets/home/pagePresentation/pagePresentation.json')
-      .then(res => res.json())
-      .then(json => setData(json))
-      .catch(
-          function(err){
-          console.log(err, ' error')
-          }
-      )
-      return (
-        <div className='view presentation full-page'>
-          <h1>RAID CENTRALE LYON</h1>
-          <div className='pres'>
-            <div className='video'>
-              <div>
-                <iframe src={data.url} title="Le Raid en image" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-              </div>
-            </div>
-            <div/>
-            <div className='descr'>
-              <h2>Le Raid en quelques mots</h2>
-              <h5>
-                {data.description}
-              </h5>
-            </div>
+  if (!cached) {
+    fetch("assets/Home/presentation/presentation.json")
+      .then((res) => res.json())
+      .then((json) => setData(json))
+      .catch(function (err) {
+        console.log(err, " error");
+      })
+      .then(() => setCached(data !== undefined))
+      .then(() => console.log("data fetched presentation"));
+  }
+  return (
+    <div className="view presentation full-page">
+      <h1>RAID CENTRALE LYON</h1>
+      <div className="pres">
+        <div className="video">
+          <div>
+            <iframe
+              src={data.url}
+              title="Le Raid en image"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
-      );
+        <div />
+        <div className="descr">
+          <h2>Le Raid en quelques mots</h2>
+          <h5>{data.description}</h5>
+        </div>
+      </div>
+    </div>
+  );
 }

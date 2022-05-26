@@ -4,5 +4,11 @@
         "description": "ÉCLAIR est l'association d’informatique de l’Ecole Centrale Lyon. Tout d'abord, c'est eux qui sont en charge de tout ce qui rapporte à l'informatique dans le monde associatif : hébergement et création de site, d'application, installation informatique... Ils sont aussi là pour aider sur les gros évènements comme le Gala, le Challenge ou les intercentrales. Au delà de ça, ils sont présents chaque midi pour les centraliens : ils règlent les soucis informatiques et matériels, on prête des PCs, ils vendent du matériel informatique. Enfin, ils organisent des formations en début d'année ouvertes à tous !",
         "url": "",
         "edition": []
+    }, {
+        "nom": "Forum Perspectives",
+        "img": "forum.png",
+        "description": "L’ asso du forum est une équipe de 15 personnes chargées de l’ organisation d’ un événement clé pour l’ insertion des centraliens dans la vie professionnelle!Le Forum Perspectives est un lieu d’ échange et de recrutement regroupant plus de 120 entreprises.La journée est remplie d’ entretiens, de tables rondes et de conférences, alors viens démarcher des entreprises et organiser un événement qui réunit 2000 personnes chaque année au Centre des Congrès de Lyon.",
+        "url": "https://www.forum-perspectives.fr",
+        "edition": []
     }
 ]

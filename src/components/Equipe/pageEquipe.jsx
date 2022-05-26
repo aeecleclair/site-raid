@@ -3,15 +3,18 @@ import CustomNavBar from '../navbar';
 import { useState } from 'react';
 
 export default function PageEquipe() {
+    const [cached, setCached] = useState(false);
     const [data, setData] = useState([]);
+    if (!cached) {
     fetch('assets/equipe/equipe.json')
-        .then(res => res.json())
-        .then(json => setData(json))
-        .catch(
-            function(err) {
-                console.log(err, ' error')
-            }
-        )
+        .then((res) => res.json())
+        .then((json) => setData(json))
+        .catch(function (err) {
+          console.log(err, " error");
+        })
+        .then(() => setCached(data !== undefined))
+        .then(() => console.log("data fetched equipe"));
+    }
     return (
         <div>
             <CustomNavBar/>
