@@ -5,7 +5,7 @@ export default function CustomCarousel() {
   const [cached, setCached] = useState(false);
   const [data, setData] = useState([]);
   if (!cached) {
-    fetch("assets/Home/carousel/carousel.json")
+    fetch("assets/home/carousel/carousel.json")
       .then((res) => res.json())
       .then((json) => setData(json))
       .catch(function (err) {
@@ -22,7 +22,7 @@ export default function CustomCarousel() {
             <img
               className="d-block w-100 image600"
               src={
-                process.env.PUBLIC_URL + "assets/Home/carousel/images/" + d.img
+                process.env.PUBLIC_URL + "assets/home/carousel/images/" + d.img
               }
               alt={d.title}
             />

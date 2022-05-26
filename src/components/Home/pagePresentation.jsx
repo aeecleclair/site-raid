@@ -4,7 +4,7 @@ export default function PagePresentation() {
   const [cached, setCached] = useState(false);
   const [data, setData] = useState([]);
   if (!cached) {
-    fetch("assets/Home/presentation/presentation.json")
+    fetch("assets/home/presentation/presentation.json")
       .then((res) => res.json())
       .then((json) => setData(json))
       .catch(function (err) {
