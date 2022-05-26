@@ -227,19 +227,6 @@
     color: #fff;
 }
 
-.fa-facebook-f {
-    color: #3b5998
-}
-.fa-facebook-f:hover {
-    color: #fff
-}
-
-.fa-instagram {
-    color:#E1306C;
-}
-.fa-instagram:hover {
-    color: #fff
-}
 .footer-fixed {
   position: absolute;
   bottom: -4px;
