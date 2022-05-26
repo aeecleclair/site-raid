@@ -223,6 +223,23 @@
   margin-top: 25px;
 }
 
+.links {
+    color: #fff;
+}
+
+.fa-facebook-f {
+    color: #3b5998
+}
+.fa-facebook-f:hover {
+    color: #fff
+}
+
+.fa-instagram {
+    color:#E1306C;
+}
+.fa-instagram:hover {
+    color: #fff
+}
 .footer-fixed {
   position: absolute;
   bottom: -4px;
@@ -461,6 +478,7 @@
   width: 70%;
   border: #217a37 solid 2px;
   padding: 0 20px 20px 20px;
+  margin-bottom: 20px;
   border-radius: 50px 50px 50px 5px;
 }
 

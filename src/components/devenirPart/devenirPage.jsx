@@ -6,6 +6,7 @@ import $ from "jquery";
 export default function AvantGout() {
   const [cached, setCached] = useState(false);
   const [data, setData] = useState([]);
+  const [h3, seth3] = useState(0);
   if (!cached) {
     fetch("assets/devenir/devenir.json")
       .then((res) => res.json())
@@ -16,9 +17,11 @@ export default function AvantGout() {
       .then(() => setCached(data !== undefined))
       .then(() => console.log("data fetched devenir"));
   }
-  var h = $(window).height();
-  var h2 = $(".devenir-container").height();
-  var h3 = h2 - h + 196;
+  if (h3 === 0) {
+    var h = $(window).height();
+    var h2 = $(".devenir-container").height();
+    seth3(h2 - h + 196);
+  }
   return (
     <div>
       <CustomNavBar />

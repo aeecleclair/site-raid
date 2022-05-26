@@ -54,6 +54,9 @@ export default function CustomFooter(props) {
         <div className="links">
           <a href={"mailto:" + data.mail}>{data.mail}</a>
         </div>
+        <div className="links">
+          &copy; Raid Centrale Lyon - Tous droits réservés
+        </div>
       </div>
     </div>
   );
