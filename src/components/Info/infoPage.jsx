@@ -2,11 +2,11 @@ import CustomFooter from "../footer";
 import CustomNavBar from "../navbar";
 import { useState } from "react";
 import $ from "jquery";
+import { useWindowSize } from "../windowSize";
 
 export default function InfoPage() {
   const [cached, setCached] = useState(false);
   const [data, setData] = useState([]);
-  const [h3, seth3] = useState(0);
   if (!cached) {
     fetch("assets/info/info.json")
       .then((res) => res.json())
@@ -17,11 +17,7 @@ export default function InfoPage() {
       .then(() => setCached(data !== undefined))
       .then(() => console.log("data fetched info"));
   }
-  if (h3 === 0 && $(".info-container") === undefined) {
-    var h = $(window).height();
-    var h2 = $(".info-container").height();
-    seth3(h2 - h + 196);
-  }
+  var h3 = useWindowSize(".info-container");
   return (
     <div>
       <CustomNavBar />
@@ -54,7 +50,7 @@ export default function InfoPage() {
               </div>
             </div>
           </div>
-          <CustomFooter fullpage={false} isSticked={h3 < 0} />
+          <CustomFooter fullpage={true} isSticked={h3 < 0} />
         </div>
       </div>
     </div>

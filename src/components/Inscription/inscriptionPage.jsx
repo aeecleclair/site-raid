@@ -1,12 +1,12 @@
 import CustomFooter from "../footer";
 import CustomNavBar from "../navbar";
-import { useState } from "react";
+import { useState, useEffect, useLayoutEffect } from "react";
 import $ from "jquery";
+import { useWindowSize } from "../windowSize";
 
 export default function InscriptionPage() {
   const [cached, setCached] = useState(false);
-  const [data, setData] = useState([]);
-  const [h3, seth3] = useState(0);
+  const [data, setData] = useState([])
   if (!cached) {
     fetch("assets/inscription/inscription.json")
       .then((res) => res.json())
@@ -17,11 +17,7 @@ export default function InscriptionPage() {
       .then(() => setCached(data !== undefined))
       .then(() => console.log("data fetched inscription"));
   }
-  if (h3 === 0 && cached) {
-    var h = $(window).height();
-    var h2 = $(".inscr-container").height();
-    seth3(h2 - h + 196);
-  }
+  var h3 = useWindowSize(".inscr-container");
   return (
     <div>
       <CustomNavBar />
@@ -65,7 +61,7 @@ export default function InscriptionPage() {
               <></>
             )}
           </div>
-          <CustomFooter fullpage={false} isSticked={h3 < 0} />
+          <CustomFooter fullpage={true} isSticked={h3 < 0} />
         </div>
       </div>
     </div>

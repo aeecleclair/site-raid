@@ -19,13 +19,15 @@ export default function PageSponsor() {
     <div>
       <div className="view lastpage full-page">
         <h1>NOS PARTENAIRES</h1>
-        {data.length > 3 ? (
+        {data.length > 2 ? (
           <Marquee className="sponsors-container" speed={100}>
             {data.map((part, index) => {
               return (
                 <img
                   src={
-                    process.env.PUBLIC_URL + "assets/partenaires/images/" + part.img
+                    process.env.PUBLIC_URL +
+                    "assets/partenaires/images/" +
+                    part.img
                   }
                   key={index}
                   alt=""
@@ -35,21 +37,25 @@ export default function PageSponsor() {
             })}
           </Marquee>
         ) : (
-          data.map((part, index) => {
-            return (
-              <img
-                src={
-                  process.env.PUBLIC_URL + "assets/partenaires/images/" + part.img
-                }
-                key={index}
-                alt=""
-                className="sponsors-image static"
-              />
-            );
-          })
+          <div className="sponsors-container">
+            {data.map((part, index) => {
+              return (
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "assets/partenaires/images/" +
+                    part.img
+                  }
+                  key={index}
+                  alt=""
+                  className="sponsors-image static"
+                />
+              );
+            })}
+          </div>
         )}
       </div>
-      <CustomFooter fullpage={false} />
+      <CustomFooter fullpage={false} isSticked={false} />
     </div>
   );
 }

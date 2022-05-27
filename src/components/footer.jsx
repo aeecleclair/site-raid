@@ -15,10 +15,8 @@ export default function CustomFooter(props) {
       .then(() => setCached(data !== undefined))
       .then(() => console.log("data fetched footer"));
   }
-  var c = props.fullpage ? "footer1" : "footer2";
-  if (props.isSticked) {
-    c += " footer-fixed";
-  }
+  var c = props.fullpage && (props.fullpage && props.isSticked ) ? "footer2" : "footer1";
+  console.log(c)
   return (
     <div className={c}>
       <div className="footer-container">
