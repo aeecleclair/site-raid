@@ -1,7 +1,6 @@
 import CustomFooter from "../footer";
 import CustomNavBar from "../navbar";
-import { useState, useEffect, useLayoutEffect } from "react";
-import $ from "jquery";
+import { useState } from "react";
 import { useWindowSize } from "../windowSize";
 
 export default function InscriptionPage() {

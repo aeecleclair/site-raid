@@ -1,7 +1,6 @@
 import CustomFooter from "../footer";
 import CustomNavBar from "../navbar";
 import { useState } from "react";
-import $ from "jquery";
 import { useWindowSize } from "../windowSize";
 
 export default function InfoPage() {
