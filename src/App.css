@@ -325,6 +325,7 @@
   background-clip: content-box, border-box;
   background-size: cover;
   box-sizing: border-box;
+
 }
 
 .membre a {
@@ -352,6 +353,7 @@
   width: 90%;
   object-fit: cover;
   border-radius: 25%;
+  object-position: top;
 }
 
 .membre-text {

@@ -32,7 +32,7 @@ export default function PageEquipe() {
                                                     {
                                                         membre.img
                                                         ? <div className='headshot headshot-1'>
-                                                            <img src={process.env.PUBLIC_URL + "assets/IMG_0591.jpg"} alt={membre.nom} />
+                                                            <img src={process.env.PUBLIC_URL + "assets/equipe/images/" + membre.img} alt={membre.nom} />
                                                         </div>
                                                         : <></>
                                                     }
