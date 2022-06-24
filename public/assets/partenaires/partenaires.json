@@ -1,7 +1,7 @@
 [{
         "nom": "Éclair",
         "img": "eclair.png",
-        "description": "ÉCLAIR est l'association d’informatique de l’Ecole Centrale Lyon. Tout d'abord, c'est eux qui sont en charge de tout ce qui rapporte à l'informatique dans le monde associatif : hébergement et création de site, d'application, installation informatique... Ils sont aussi là pour aider sur les gros évènements comme le Gala, le Challenge ou les intercentrales. Au delà de ça, ils sont présents chaque midi pour les centraliens : ils règlent les soucis informatiques et matériels, on prête des PCs, ils vendent du matériel informatique. Enfin, ils organisent des formations en début d'année ouvertes à tous !",
+        "description": "ÉCLAIR est l'association d’informatique de l’Ecole Centrale Lyon. Tout d'abord, c'est eux qui sont en charge de tout ce qui rapporte à l'informatique dans le monde associatif : hébergement et création de site, d'application, installation informatique... Ils sont aussi là pour aider sur les gros évènements comme le Gala, le Challenge ou les intercentrales. Au delà de ça, ils sont présents chaque midi pour les centraliens : ils règlent les soucis informatiques et matériels, ils prêtent des PCs, ils vendent du matériel informatique. Enfin, ils organisent des formations en début d'année ouvertes à tous !",
         "url": "",
         "edition": []
     }, {
