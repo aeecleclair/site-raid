@@ -17,6 +17,7 @@ export default function PagePartenaires() {
       .then(() => console.log("data fetched partenaires"));
   }
   var h3 = useWindowSize(".partenaire-container");
+  console.log(h3)
   return (
     <div>
       <CustomNavBar />
@@ -65,7 +66,7 @@ export default function PagePartenaires() {
               })
             : ""}
         </div>
-        <CustomFooter fullpage={true} isSticked={h3 < 0} />
+        <CustomFooter fullpage={true} isSticked={h3 + 80 < 0} />
       </div>
     </div>
   );

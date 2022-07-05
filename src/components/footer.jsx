@@ -32,7 +32,7 @@ export default function CustomFooter(props) {
             className="social-buttons__button social-button social-button--facebook"
             aria-label="Facebook"
           >
-            <FontAwesomeIcon icon={faFacebookF} style={{ height: 30 }} />
+            <FontAwesomeIcon icon={faFacebookF} />
           </a>
           <a
             href={data.instagram}
@@ -41,7 +41,7 @@ export default function CustomFooter(props) {
             className="social-buttons__button social-button social-button--instagram"
             aria-label="Instagram"
           >
-            <FontAwesomeIcon icon={faInstagram} style={{ height: 30 }} />
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
       </div>

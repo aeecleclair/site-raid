@@ -29,7 +29,4 @@ export default function App() {
 }
 
 /* TODO:
-    Accueil : photo
-    Equipe : photo
-    Inscription : formulaire d'inscription
 */

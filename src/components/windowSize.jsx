@@ -26,3 +26,25 @@ export function useWindowSize(container) {
   }, []);
   return h3;
 }
+
+export function useWindowWidth() {
+  const [h3, seth3] = useState(0);
+  useLayoutEffect(() => {
+    function updateSize() {
+      var h = $(window).width();
+      seth3(h);
+    }
+    function checkHeightTimer() {
+      var h = $(window).width();
+      seth3(h);
+      setTimeout(checkHeightTimer, 500); //at 500 miliseconds
+    }
+    window.addEventListener("resize", updateSize);
+    updateSize();
+    checkHeightTimer();
+    return () => {
+      window.removeEventListener("resize", updateSize);
+    };
+  }, []);
+  return h3;
+}

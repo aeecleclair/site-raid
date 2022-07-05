@@ -239,6 +239,11 @@
   justify-content: center;
   margin-top: -22px;
 }
+
+.social-button svg {
+    height: 30px;
+}
+
 .social-buttons__button {
   margin: 10px 5px 0;
 }
@@ -1252,7 +1257,7 @@ a:hover .button-text {
 
   .footer2 .links a {
     margin-left: 0;
-    margin-top: 25px;
+    margin-top: 15px;
   }
 
 .footer1 .links a {
@@ -1261,7 +1266,7 @@ a:hover .button-text {
   }
 
   .footer2 .footer-container2 .links {
-    margin-top: 20px;
+    margin-top: 00px;
   }
 
   .footer1 .footer-container2 .links {
@@ -1278,4 +1283,223 @@ a:hover .button-text {
   .brand h2 {
     font-size: 4vw;
   }
+
+  .footer1,
+  .footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-container {
+    position: relative;
+    left: 0%;
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .footer-container2 {
+    position: relative;
+    right: 0%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .footer-container2 a {
+    color: #fff;
+  }
+
+  .footer-container .footer-title {
+    position: relative;
+    top: 5px;
+  }
+
+  .footer1 .footer-container .footer-title {
+    position: relative;
+    top: 5px;
+  }
+
+  .footer-container2 a:hover {
+    color: rgb(209, 209, 209);
+  }
+
+  .footer-title h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+  }
+
+  .footer2 .footer-title {
+    padding-top: 10px;
+  }
+
+  .footer1 .footer-title {
+    padding-top: 10px;
+  }
+
+  .footer2 .links {
+    padding-top: 0px;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+
+  .footer1 .links {
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+
+  .footer2 .links a {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+.footer1 .links a {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .footer2 .footer-container2 .links {
+    margin-top: 10px;
+  }
+
+  .footer1 .footer-container2 .links {
+    margin-top: 10px;
+  }
+
+  .social-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-button svg {
+    height: 25px;
+}
+
+.presentation {
+  background-size: 180% 100%;
+}
+
+
+  .formule {
+    width: 80vw;
+    justify-content: center;
+    margin: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+
+  .formule-content {
+    padding-left: 10px;
+    font-size: max(1.5vw, 1.9vh);
+  }
+
+  .formule-title {
+    top: max(8vw, 5vh);
+  }
+
+  .formule-title h1 {
+    font-size: min(20px, 3vh);
+    color: #ffffff;
+    margin-top: calc(3vh - 50 * (100vw - 700px) / 700);
+  }
+
+  .formule-data span {
+    font-size:  max(1.5vw, 2.2vh);
+  }
+
+  .formule-icon {
+    position: relative;
+    height: max(2vw, 3vh);
+    top: calc(max(2vw, 3vh) / 2 - 10px);
+  }
+
+.timeline {
+    width: 90%;
+    left: 5%;
+    height: 80%;
+  }
+
+  .timeline-content {
+    position: relative;
+    top: 80px;
+    width: 100%;
+  }
+
+  .echeance {
+      background-size: 200% 100%;
+  }
+
+  .echeance-item {
+    height: 23vh;
+  }
+
+  .echeance-text {
+    width: 100%;
+    font-size: 9px;
+  }
+
+  .echeance-container h3 {
+    font-size: 15px;
+  }
+
+  .echeance-date {
+    font-size: 11px;
+  }
+
+  .partenaire-container {
+  padding-top: max(30px, 5vw);
+}
+
+.partenaire-image {
+  padding-bottom: max(30px, 5vw);
+}
+
+.partenaire-descr {
+  padding-left: 1vw;
+  width: 55%;
+}
+
+.partenaire-descr h6 {
+  font-size: max(2vw, 1.5vh);
+}
+
+.partenaire-image img {
+  width: 37vw;
+  height: calc(12/25 * 37vw);
+  object-fit: contain;
+}
+
+.partenaire-url a {
+  color: #2da52a;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.devenir-container {
+    width: 90%;
+    left: 5%
+}
+
+.devenir-mot {
+  width: 90%;
+}
+
+.info-container {
+  left: 5%;
+  width: 90%;
+}
+
+.info-content-item-content-item h5 {
+  width: 80%;
+}
+
 }
