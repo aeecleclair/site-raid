@@ -5,7 +5,7 @@ import { useWindowSize } from "../windowSize";
 
 export default function InscriptionPage() {
   const [cached, setCached] = useState(false);
-  const [data, setData] = useState([])
+  const [data, setData] = useState([]);
   if (!cached) {
     fetch("assets/inscription/inscription.json")
       .then((res) => res.json())
@@ -27,6 +27,25 @@ export default function InscriptionPage() {
             <div className="inscr-content">
               <h5>{data.description}</h5>
             </div>
+            {data.reglement !== "" ? (
+              <div id="button-container">
+                <a
+                  className="learn-more"
+                  href={
+                    process.env.PUBLIC_URL +
+                    "assets/inscription/" +
+                    data.reglement
+                  }
+                >
+                  <span className="circle" aria-hidden="true">
+                    <span className="icon arrow"></span>
+                  </span>
+                  <span className="button-text">Le réglement</span>
+                </a>
+              </div>
+            ) : (
+              <div></div>
+            )}
             {data.lienGGDoc !== "" ? (
               <div className="lien">
                 <h5>
