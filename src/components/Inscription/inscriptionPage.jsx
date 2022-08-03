@@ -25,7 +25,13 @@ export default function InscriptionPage() {
           <div className="inscr-container">
             <h1>INSCRIPTION</h1>
             <div className="inscr-content">
-              <h5>{data.description}</h5>
+              <h5>
+                {data.description
+                  ? data.description.map((mot, index) => {
+                      return <p>{mot}</p>;
+                    })
+                  : ""}
+              </h5>
             </div>
             {data.reglement !== "" ? (
               <div id="button-container">
@@ -49,7 +55,9 @@ export default function InscriptionPage() {
             {data.lienGGDoc !== "" ? (
               <div className="lien">
                 <h5>
-                  Lien du Google Form :{" "}
+                  Lien du Google Form{" "}
+                  <i>(à ne remplir que par un seul des membres de l'équipe)</i>{" "}
+                  :{" "}
                   <a
                     href={data.lienGGDoc}
                     target="_blank"
@@ -65,7 +73,8 @@ export default function InscriptionPage() {
             {data.lienLydia !== "" ? (
               <div className="lien">
                 <h5>
-                  Lien du Lydia :{" "}
+                  Lien du Lydia{" "}
+                  <i>(Les deux membres doivent payer leur inscription)</i> :{" "}
                   <a
                     href={data.lienLydia}
                     target="_blank"
