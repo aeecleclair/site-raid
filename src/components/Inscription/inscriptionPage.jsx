@@ -87,6 +87,25 @@ export default function InscriptionPage() {
             ) : (
               <></>
             )}
+            {data.certificat !== "" ? (
+              <div id="button-container">
+                <a
+                  className="learn-more"
+                  href={
+                    process.env.PUBLIC_URL +
+                    "assets/inscription/" +
+                    data.certificat
+                  }
+                >
+                  <span className="circle" aria-hidden="true">
+                    <span className="icon arrow"></span>
+                  </span>
+                  <span className="button-text">Le certificat médical</span>
+                </a>
+              </div>
+            ) : (
+              <div></div>
+            )}
           </div>
           <CustomFooter fullpage={true} isSticked={h3 < 0} />
         </div>
