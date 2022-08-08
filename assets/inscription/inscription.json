@@ -2,5 +2,6 @@
     "lienGGDoc": "https://forms.gle/TJqT4Vg81g9RnSzL8",
     "description": ["C'est l'heure de s'inscrire !!!", "C'est très simple, il y a un Google Form, qu'un seul des deux membres de l'équipe doit remplir. Ensuite, chacun des membres paye son inscription via le lien Lydia (sauf pour les équipes entreprises), puis nous confirmerons l'inscription par mail."],
     "lienLydia": "https://collecte.io/paiement-raid-centrale-lyon-2022-1789847/fr",
-    "reglement": "Règlement.pdf"
+    "reglement": "Règlement.pdf",
+    "certificat": "reglement-certificat-médical.pdf"
 }
