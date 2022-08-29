@@ -7,8 +7,14 @@
     }, {
         "nom": "Forum Perspectives",
         "img": "forum.png",
-        "description": "L’ asso du forum est une équipe de 15 personnes chargées de l’ organisation d’ un événement clé pour l’ insertion des centraliens dans la vie professionnelle!Le Forum Perspectives est un lieu d’ échange et de recrutement regroupant plus de 120 entreprises.La journée est remplie d’ entretiens, de tables rondes et de conférences, alors viens démarcher des entreprises et organiser un événement qui réunit 2000 personnes chaque année au Centre des Congrès de Lyon.",
+        "description": "L’asso du forum est une équipe de 15 personnes chargées de l’organisation d’un événement clé pour l’insertion des centraliens dans la vie professionnelle! Le Forum Perspectives est un lieu d’échange et de recrutement regroupant plus de 120 entreprises. La journée est remplie d’entretiens, de tables rondes et de conférences. C'est un événement qui réunit 2000 personnes chaque année au Centre des Congrès de Lyon.",
         "url": "https://www.forum-perspectives.fr",
+        "edition": []
+    }, {
+        "nom": "Smart Grid Energy",
+        "img": "smart_grid_energy.png",
+        "description": "Smart Grid Energy est une entreprise innovante dans le domaine de l'énergie. Sa vocation : accompagner les industriels dans l'optimisation économique de leurs actifs sur le marché de l'électricité. Qu'il s'agisse de réduire la facture d'un consommateur ou d'augmenter les revenus d'un producteur, l'équipe de Smart Grid Energy peut proposer des solutions personnalisées, grâce à son savoir-faire et ses spécialités variées.",
+        "url": "https://www.smartgridenergy.fr/",
         "edition": []
     }
 ]
