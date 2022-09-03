@@ -2,12 +2,12 @@
     {
         "nom": "Inscriptions",
         "dateDebut": "04/08/2022",
-        "dateFin": "fin septembre",
+        "dateFin": "Fin septembre",
         "description": "Inscris-toi rapidement pour découvrir une aventure inoubliable ! Attention l’inscription des deux participants du même binôme se fait sur un seul formulaire."
     }, {
         "nom": "Validation des dossiers",
-        "dateDebut": "Mi juin",
-        "dateFin": "fin septembre",
+        "dateDebut": "Mi septembre",
+        "dateFin": "Fin septembre",
         "description": "Ton inscription sera validée par mail quand tu auras fourni toutes les pièces justificatives et que tu auras payé."
     }, {
         "nom": "Raid",
