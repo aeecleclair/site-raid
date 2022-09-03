@@ -1,9 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faMapLocationDot,
-  faMountain,
-} from "@fortawesome/free-solid-svg-icons";
-
 export default function FormuleItem(props) {
   return (
     <div className="formule">
@@ -14,16 +8,13 @@ export default function FormuleItem(props) {
         <div className="formule-content">
           <span>{props.content}</span>
         </div>
-        <div className="formule-data">
-          <div className="km">
-            <FontAwesomeIcon icon={faMapLocationDot} className="formule-icon" />
-            <span>{props.km} km</span>
-          </div>
-          <div className="d">
-            <FontAwesomeIcon icon={faMountain} className="formule-icon" />
-            <span>D+ : {props.dPlus} m</span>
-            <span>D- : {props.dMinus} m</span>
-          </div>
+        <div id="button-container" className="alternative formule-data">
+          <a className="learn-more" href={process.env.PUBLIC_URL + "assets/Raid/formule/pdf/" + props.pdf}>
+            <span className="circle" aria-hidden="true">
+              <span className="icon arrow"></span>
+            </span>
+            <span className="button-text">Plus d'information</span>
+          </a>
         </div>
       </div>
     </div>

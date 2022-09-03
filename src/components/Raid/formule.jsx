@@ -23,9 +23,7 @@ export default function Formule() {
             key={index}
             title={formule.nom}
             content={formule.description}
-            km={formule.km}
-            dPlus={formule.dp}
-            dMinus={formule.dm}
+            pdf={formule.pdf}
           />
         ))}
       </div>
