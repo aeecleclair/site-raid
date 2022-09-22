@@ -106,6 +106,23 @@ export default function InscriptionPage() {
             ) : (
               <div></div>
             )}
+            {data.lienBen !== "" ? (
+              <div className="lien">
+                <h5>
+                  Lien du Google Form pour être bénévole{" "}
+                  <i>(Sans vous le Raid ne peux pas exister)</i> :{" "}
+                  <a
+                    href={data.lienBen}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {data.lienBen}
+                  </a>
+                </h5>
+              </div>
+            ) : (
+              <></>
+            )}
           </div>
           <CustomFooter fullpage={true} isSticked={h3 < 0} />
         </div>
