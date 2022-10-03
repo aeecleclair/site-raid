@@ -24,15 +24,6 @@ export default function InscriptionPage() {
         <div className="inscr-back">
           <div className="inscr-container">
             <h1>INSCRIPTION</h1>
-            <div className="inscr-content">
-              <h5>
-                {data.description
-                  ? data.description.map((mot, index) => {
-                      return <p>{mot}</p>;
-                    })
-                  : ""}
-              </h5>
-            </div>
             {data.reglement !== "" ? (
               <div id="button-container">
                 <a
@@ -52,6 +43,16 @@ export default function InscriptionPage() {
             ) : (
               <div></div>
             )}
+            <div className="inscr-content">
+              <h5>
+                {data.description
+                  ? data.description.map((mot, index) => {
+                      return <p>{mot}</p>;
+                    })
+                  : ""}
+              </h5>
+            </div>
+            
             {data.lienGGDoc !== "" ? (
               <div className="lien">
                 <h5>
