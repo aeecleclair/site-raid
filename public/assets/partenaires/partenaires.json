@@ -2,27 +2,26 @@
     "nom": "Croix-Rouge française",
     "img": "croix_rouge.png",
     "description": "La Croix-Rouge française (CRF) est une association d'aide humanitaire française fondée en 18641. Elle a pour objectif de venir en aide aux personnes en difficulté en France et à l'étranger. Ses missions fondamentales sont l'urgence, le secourisme, l'action sociale, la formation, la santé et l'action internationale.",
-    "url": "https://www.croix-rouge.fr/",
-    "edition": [
-        "Toutes les éditions depuis la création du Raid"
-    ]
+    "url": "https://www.croix-rouge.fr/"
 }, {
     "nom": "Smart Grid Energy",
     "img": "smart_grid_energy.png",
     "description": "Smart Grid Energy est une entreprise innovante dans le domaine de l'énergie. Sa vocation : accompagner les industriels dans l'optimisation économique de leurs actifs sur le marché de l'électricité. Qu'il s'agisse de réduire la facture d'un consommateur ou d'augmenter les revenus d'un producteur, l'équipe de Smart Grid Energy peut proposer des solutions personnalisées, grâce à son savoir-faire et ses spécialités variées.",
-    "url": "https://www.smartgridenergy.fr/",
-    "edition": []
+    "url": "https://www.smartgridenergy.fr/"
     }, {
     "nom": "Éclair",
     "img": "eclair.png",
     "description": "ÉCLAIR est l'association d’informatique de l’Ecole Centrale Lyon. Tout d'abord, c'est eux qui sont en charge de tout ce qui rapporte à l'informatique dans le monde associatif : hébergement et création de site, d'application, installation informatique... Ils sont aussi là pour aider sur les gros évènements comme le Gala, le Challenge ou les intercentrales. Au delà de ça, ils sont présents chaque midi pour les centraliens : ils règlent les soucis informatiques et matériels, ils prêtent des PCs, ils vendent du matériel informatique. Enfin, ils organisent des formations en début d'année ouvertes à tous !",
-    "url": "",
-    "edition": []
+    "url": ""
 }, {
     "nom": "Forum Perspectives",
     "img": "forum.png",
     "description": "L’asso du forum est une équipe de 15 personnes chargées de l’organisation d’un événement clé pour l’insertion des centraliens dans la vie professionnelle! Le Forum Perspectives est un lieu d’échange et de recrutement regroupant plus de 120 entreprises. La journée est remplie d’entretiens, de tables rondes et de conférences. C'est un événement qui réunit 2000 personnes chaque année au Centre des Congrès de Lyon.",
-    "url": "https://www.forum-perspectives.fr",
-    "edition": []
+    "url": "https://www.forum-perspectives.fr"
+}, {
+    "nom": "Au Vieux Campeur",
+    "img": "au_vieux_campeur.png",
+    "description" : "Au Vieux Campeur est un sponsor régulier du Raid Centrale Lyon, cette chaîne de magasins d’articles de sports et de loisirs est spécialisée dans l’outdoor. Elle propose notamment du matériel de qualité pour la randonnée, le trail, l’escalade, le vélo, la natation et l’alpinisme. N’hésitez pas à passer dans leurs magasins à Lyon pour vous équiper avant vos excursions !",
+    "url": "https://www.auvieuxcampeur.fr/"
 }
 ]

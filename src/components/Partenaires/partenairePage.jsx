@@ -40,11 +40,6 @@ export default function PagePartenaires() {
                     />
                     <div className="partenaire-descr">
                       <h3>{part.nom}</h3>
-                      {part.edition.length > 0 ? (
-                        <h6>Editions : {part.edition.join(", ")}</h6>
-                      ) : (
-                        <h6>Nouveau partenaire !</h6>
-                      )}
                       <h6>{part.description}</h6>
                       {part.url.length > 0 ? (
                         <div className="partenaire-url">
