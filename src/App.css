@@ -872,6 +872,10 @@ a:hover .button-text {
     }
   }
 
+  .logo-app {
+    margin: 0;
+  }
+
   .brand {
     padding-right: 3vw;
   }
