@@ -22,20 +22,23 @@ export default function PageSponsor() {
     <div>
       <div className="view lastpage full-page">
         <h1>NOS PARTENAIRES</h1>
-        {(data.length * 250 > h3 && h3 < 1024) || (data.length * 500 > h3 && h3 >= 1024) ? (
+        {(data.length * 250 > h3 && h3 < 1024) ||
+        (data.length * 500 > h3 && h3 >= 1024) ? (
           <Marquee className="sponsors-container" speed={100}>
             {data.map((part, index) => {
               return (
-                <img
-                  src={
-                    process.env.PUBLIC_URL +
-                    "assets/partenaires/images/" +
-                    part.img
-                  }
-                  key={index}
-                  alt=""
-                  className="sponsors-image"
-                />
+                <a href={"/nos-partenaires#" + index}>
+                  <img
+                    src={
+                      process.env.PUBLIC_URL +
+                      "assets/partenaires/images/" +
+                      part.img
+                    }
+                    key={index}
+                    alt=""
+                    className="sponsors-image"
+                  />
+                </a>
               );
             })}
           </Marquee>

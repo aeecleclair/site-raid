@@ -27,7 +27,7 @@ export default function PagePartenaires() {
           {data
             ? data.map((part, index) => {
                 return (
-                  <div className="partenaire-image">
+                  <div className="partenaire-image" id={index}>
                     <img
                       src={
                         process.env.PUBLIC_URL +
