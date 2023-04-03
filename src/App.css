@@ -229,9 +229,8 @@
 }
 
 .links {
-    color: #fff;
+  color: #fff;
 }
-
 
 .social-buttons {
   display: flex;
@@ -240,12 +239,10 @@
   margin-top: -22px;
 }
 
-.social-button svg {
-    height: 30px;
-}
 
 .social-buttons__button {
   margin: 10px 5px 0;
+  padding: 5px;
 }
 
 .social-button {
@@ -330,7 +327,6 @@
   background-clip: content-box, border-box;
   background-size: cover;
   box-sizing: border-box;
-
 }
 
 .membre a {
@@ -499,9 +495,9 @@ a.learn-more {
 }
 
 a.learn-more .circle {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: relative;
-    display: block;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
   margin: 0;
   width: 3rem;
   height: 3rem;
@@ -1198,7 +1194,7 @@ a:hover .button-text {
 }
 
 @media only screen and (max-width: 1030px) {
-    .footer1,
+  .footer1,
   .footer2 {
     display: flex;
     flex-direction: column;
@@ -1273,7 +1269,7 @@ a:hover .button-text {
     margin-top: 15px;
   }
 
-.footer1 .links a {
+  .footer1 .links a {
     margin-left: 0;
     margin-top: 25px;
   }
@@ -1288,7 +1284,6 @@ a:hover .button-text {
 }
 
 @media only screen and (max-width: 700px) {
-
   .brand {
     padding-right: 3vw;
   }
@@ -1375,7 +1370,7 @@ a:hover .button-text {
     margin-top: 30px;
   }
 
-.footer1 .links a {
+  .footer1 .links a {
     margin-left: 0;
     margin-top: 30px;
   }
@@ -1395,12 +1390,11 @@ a:hover .button-text {
 
   .social-button svg {
     height: 25px;
-}
+  }
 
-.presentation {
-  background-size: 180% 100%;
-}
-
+  .presentation {
+    background-size: 180% 100%;
+  }
 
   .formule {
     width: 80vw;
@@ -1426,7 +1420,7 @@ a:hover .button-text {
   }
 
   .formule-data span {
-    font-size:  max(1.5vw, 2.2vh);
+    font-size: max(1.5vw, 2.2vh);
   }
 
   .formule-icon {
@@ -1435,7 +1429,7 @@ a:hover .button-text {
     top: calc(max(2vw, 3vh) / 2 - 10px);
   }
 
-.timeline {
+  .timeline {
     width: 90%;
     left: 5%;
     height: 80%;
@@ -1448,7 +1442,7 @@ a:hover .button-text {
   }
 
   .echeance {
-      background-size: 200% 100%;
+    background-size: 200% 100%;
   }
 
   .echeance-item {
@@ -1469,50 +1463,49 @@ a:hover .button-text {
   }
 
   .partenaire-container {
-  padding-top: max(30px, 5vw);
-}
+    padding-top: max(30px, 5vw);
+  }
 
-.partenaire-image {
-  padding-bottom: max(30px, 5vw);
-}
+  .partenaire-image {
+    padding-bottom: max(30px, 5vw);
+  }
 
-.partenaire-descr {
-  padding-left: 1vw;
-  width: 55%;
-}
+  .partenaire-descr {
+    padding-left: 1vw;
+    width: 55%;
+  }
 
-.partenaire-descr h6 {
-  font-size: max(2vw, 1.5vh);
-}
+  .partenaire-descr h6 {
+    font-size: max(2vw, 1.5vh);
+  }
 
-.partenaire-image img {
-  width: 37vw;
-  height: calc(12/25 * 37vw);
-  object-fit: contain;
-}
+  .partenaire-image img {
+    width: 37vw;
+    height: calc(12 / 25 * 37vw);
+    object-fit: contain;
+  }
 
-.partenaire-url a {
-  color: #2da52a;
-  font-weight: 600;
-  padding-left: 10px;
-}
+  .partenaire-url a {
+    color: #2da52a;
+    font-weight: 600;
+    padding-left: 10px;
+  }
 
-.devenir-container {
+  .devenir-container {
     width: 90%;
-    left: 5%
-}
+    left: 5%;
+  }
 
-.devenir-mot {
-  width: 90%;
-}
+  .devenir-mot {
+    width: 90%;
+  }
 
-.info-container {
-  left: 5%;
-  width: 90%;
-}
+  .info-container {
+    left: 5%;
+    width: 90%;
+  }
 
-.info-content-item-content-item h5 {
-  width: 80%;
-}
-
+  .info-content-item-content-item h5 {
+    width: 80%;
+  }
 }
