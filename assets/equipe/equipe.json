@@ -1,121 +1,121 @@
 [{
         "pole": "Bureau",
         "membres": [{
-                "nom": "MAILLARD",
-                "prenom": "Chloé",
-                "fonction": "Présidente",
-                "mail": "chloe.maillard@ecl21.ecl-lyon.fr",
-                "img": "Klavyh.jpg"
+                "nom": "TAVERNIER",
+                "prenom": "Guillaume",
+                "fonction": "Président",
+                "mail": "guillaume.tavernier@ecl22.ecl-lyon.fr",
+                "img": "Shaihh.jpg"
             },
             {
-                "nom": "KAASSIS",
-                "prenom": "Paul",
-                "fonction": "Secrétaire général",
-                "mail": "paul.kaassis@ecl21.ec-lyon.fr",
-                "img": "Kreyö.jpg"
-            },
-            {
-                "nom": "COULON",
+                "nom": "VAGNON",
                 "prenom": "Jules",
+                "fonction": "Secrétaire général",
+                "mail": "jules.vagnon@ecl22.ec-lyon.fr",
+                "img": "Khetel.jpg"
+            },
+            {
+                "nom": "SCHNEIDER",
+                "prenom": "Quentin",
                 "fonction": "Trésorier",
-                "mail": "jules.coulon@ecl21.ec-lyon.fr",
-                "img": "Footy.jpg"
+                "mail": "quentin.schneider@ecl22.ec-lyon.fr",
+                "img": "N+8.jpg"
             }
         ]
     },
     {
         "pole": "Parcours",
         "membres": [{
-                "nom": "GATEUIL",
-                "prenom": "Corentin",
+                "nom": "ROUX",
+                "prenom": "Valentin",
                 "fonction": "Responsable Parcours",
-                "mail": "corention.gateuil@ecl21.ec-lyon.fr",
-                "img": "Voltah.jpg"
+                "mail": "valentin.roux@ecl22.ec-lyon.fr",
+                "img": "Sapah.jpg"
             },
             {
-                "nom": "ROUCHER",
-                "prenom": "Maxime",
+                "nom": "RUDANT",
+                "prenom": "Emilie",
                 "fonction": "Responsable Sécurité",
-                "mail": "maxime.roucher@ecl21.ec-lyon.fr",
-                "img": "Khurzs.jpg"
+                "mail": "emilie.rrudant@ecl22.ec-lyon.fr",
+                "img": "Buster.jpg"
             },
             {
-                "nom": "LAURENS-BERGE",
-                "prenom": "Rémi",
+                "nom": "PERROT",
+                "prenom": "Arnaud",
                 "fonction": "VP Log-Parcours",
-                "mail": "remi.laurens-berge@ecl21.ec-lyon.fr",
-                "img": "N+7.jpg"
+                "mail": "arnaud.perrot@ecl22.ec-lyon.fr",
+                "img": "Schibah.jpg"
             },
             {
-                "nom": "BOUSCAILLOU",
-                "prenom": "Gaëtan",
+                "nom": "HAENSCH",
+                "prenom": "Pierre",
                 "fonction": "VP Parcours",
-                "mail": "gaetan.bouscaillou@ecl21.ec-lyon.fr",
-                "img": "Hupssial.jpg"
+                "mail": "pierre.haensch@ecl22.ec-lyon.fr",
+                "img": "Hovah.jpg"
             }
         ]
     },
     {
         "pole": "Logistique",
         "membres": [{
-                "nom": "DKAKI",
-                "prenom": "Zakaria",
+                "nom": "ATON",
+                "prenom": "Judicaëlle",
                 "fonction": "Responsable Logistique",
-                "mail": "zakaria.dkaki@ecl21.ec-lyon.fr",
-                "img": "Wrouhm.jpg"
+                "mail": "judicaelle.aton@alternance2022.ec-lyon.fr",
+                "img": "Yophiy.jpg"
             },
             {
-                "nom": "PHILIPPE",
-                "prenom": "Florent",
+                "nom": "BRISSON",
+                "prenom": "Titouan",
                 "fonction": "VP Logistique",
-                "mail": "florent.philippe@ecl21.ec-lyon.fr",
-                "img": "K.Ôh.jpg"
+                "mail": "titouan.brisson@ecl22.ec-lyon.fr",
+                "img": "Mohle.jpg"
             },
             {
-                "nom": "ROUX",
-                "prenom": "Xavier",
+                "nom": "ERCEAU",
+                "prenom": "Marie",
                 "fonction": "VP Logistique",
-                "mail": "xavier.roux@ecl21.ec-lyon.fr",
+                "mail": "marie.erceau@ecl22.ec-lyon.fr",
                 "img": "Rôwenh.jpg"
             },
             {
-                "nom": "SPELLE",
-                "prenom": "Rémy",
+                "nom": "ZABBAN",
+                "prenom": "Aline",
                 "fonction": "VP Logistique",
-                "mail": "remy.spelle@ecl21.ec-lyon.fr",
-                "img": "Sanytîh.jpg"
+                "mail": "aline.zabban@ecl22.ec-lyon.fr",
+                "img": "Boonth.jpg"
             }
         ]
     },
     {
         "pole": "Sponsors",
         "membres": [{
-                "nom": "BRAULT",
-                "prenom": "Corentin",
+                "nom": "CARMONA",
+                "prenom": "Lucile",
                 "fonction": "Responsable Sponsors",
-                "mail": "corentin.brault@ecl21.ec-lyon.fr",
-                "img": "Zaçouh.jpg"
+                "mail": "lucile.carmona@ecl22.ec-lyon.fr",
+                "img": "Binny.jpg"
             },
             {
-                "nom": "ORTALO",
-                "prenom": "Théodore",
+                "nom": "AMGHAR",
+                "prenom": "Mehdi",
                 "fonction": "VP Sponsors",
-                "mail": "theodore.ortalo@ecl21.ec-lyon.fr",
-                "img": "Rheuk.jpg"
+                "mail": "mehdi.amghar@ecl21.ec-lyon.fr",
+                "img": "AMG.jpg"
             },
             {
-                "nom": "PIOLA",
-                "prenom": "Ugo",
+                "nom": "BAFFOS",
+                "prenom": "Julie",
                 "fonction": "VP Sponsors",
-                "mail": "ugo.piola@ecl21.ec-lyon.fr",
-                "img": "Mytro.jpg"
+                "mail": "julie.baffos@ecl22.ec-lyon.fr",
+                "img": "Lyverh.jpg"
             },
             {
-                "nom": "POSTEC",
-                "prenom": "Loan",
+                "nom": "BALLY",
+                "prenom": "Adeline",
                 "fonction": "VP Sponsors",
-                "mail": "loan.postec@ecl21.ec-lyon.fr",
-                "img": "Dhag.jpg"
+                "mail": "adeline.bally@ecl22.ec-lyon.fr",
+                "img": "Rabel.jpg"
             }
         ]
     },
@@ -129,11 +129,11 @@
                 "img": "Zoto.jpg"
             },
             {
-                "nom": "PUJOL",
-                "prenom": "Pierre",
+                "nom": "FERNANDES",
+                "prenom": "Lucas",
                 "fonction": "VP Communication",
-                "mail": "pierre.pujol@ecl21.ec-lyon.fr",
-                "img": "Karah.jpg"
+                "mail": "lucas.fernandes@ecl22.ec-lyon.fr",
+                "img": "Hemoh.jpg"
             }
         ]
     }
