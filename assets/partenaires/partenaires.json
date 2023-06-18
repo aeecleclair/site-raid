@@ -18,10 +18,15 @@
     "img": "forum.png",
     "description": "L’asso du forum est une équipe de 15 personnes chargées de l’organisation d’un événement clé pour l’insertion des centraliens dans la vie professionnelle! Le Forum Perspectives est un lieu d’échange et de recrutement regroupant plus de 120 entreprises. La journée est remplie d’entretiens, de tables rondes et de conférences. C'est un événement qui réunit 2000 personnes chaque année au Centre des Congrès de Lyon.",
     "url": "https://www.forum-perspectives.fr"
-}, {
+},{
     "nom": "Au Vieux Campeur",
     "img": "au_vieux_campeur.png",
     "description" : "Au Vieux Campeur est un sponsor régulier du Raid Centrale Lyon, cette chaîne de magasins d’articles de sports et de loisirs est spécialisée dans l’outdoor. Elle propose notamment du matériel de qualité pour la randonnée, le trail, l’escalade, le vélo, la natation et l’alpinisme. N’hésitez pas à passer dans leurs magasins à Lyon pour vous équiper avant vos excursions !",
     "url": "https://www.auvieuxcampeur.fr/"
+},{
+    "nom": "Le Primeur de mes envies",
+    "img": "primeur_de_mes_envies.png",
+    "description" : "Le Primeur de mes Envies est un partenariat entre des grossistes du Marché de Gros Lyon-Corbas et des Primeurs de la région lyonnaise, dans le but de faire découvrir aux consommateurs les professionnels qui répondent à leurs attentes, et également de rendre le marché encore plus attrayant grâce à leurs animations.",
+    "url": "https://www.leprimeurdemesenvies.com"
 }
 ]
