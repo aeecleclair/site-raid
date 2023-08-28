@@ -111,7 +111,7 @@ export default function InscriptionPage() {
               <div className="lien">
                 <h5>
                   Lien du Google Form pour être bénévole{" "}
-                  <i>(Sans vous le Raid ne peux pas exister)</i> :{" "}
+                  <i>(Sans vous le Raid ne pourrait pas exister)</i> :{" "}
                   <a
                     href={data.lienBen}
                     target="_blank"
