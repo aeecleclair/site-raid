@@ -21,7 +21,7 @@ export default function AvantGout() {
         <Carousel>
           {data.data.map((d, index) => {
             return (
-              <Carousel.Item>
+              <Carousel.Item key={d}>
                 <img
                   className="panorama"
                   src={process.env.PUBLIC_URL + "assets/Raid/avantgout/" + d}
