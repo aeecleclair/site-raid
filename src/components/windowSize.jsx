@@ -23,7 +23,7 @@ export function useWindowSize(container) {
     return () => {
       window.removeEventListener("resize", updateSize);
     };
-  }, [container]);
+  }, []);
   return h3;
 }
 
