@@ -1,10 +1,4 @@
 {
-  "img": "massif.jpg",
-  "description": "Voici un petit avant-goût des paysages du Raid 2023.",
-  "data": [
-    "massif.jpg",
-    "paysage1.jpg",
-    "paysage2.jpg",
-    "paysage3.jpg"
-  ]
+    "img": "massif.jpg",
+    "description": "Voici un petit avant-goût des paysages du Raid 2023."
 }
