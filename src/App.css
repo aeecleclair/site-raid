@@ -120,6 +120,8 @@
 .panorama {
   margin-top: 2vh;
   width: 96vw;
+  height: 60vh;
+  object-fit: cover;
   margin-left: 1vw;
   margin-right: 1vw;
 }
