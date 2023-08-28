@@ -136,6 +136,7 @@ export default function InscriptionPage() {
                   >
                     {data.lienBen}
                   </a>
+                  <div style={{ 'height': "60px" }}></div>
                 </h5>
               </div>
             ) : (

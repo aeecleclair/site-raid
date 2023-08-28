@@ -925,7 +925,7 @@ a:hover .button-text {
     padding-bottom: 3vh;
   }
 
-  .video iframe {
+  .video iframe, .video-parcours iframe {
     height: calc(43vw * 450 / 800);
     width: 43vw;
     border-radius: 20px;
@@ -1510,4 +1510,8 @@ a:hover .button-text {
   .info-content-item-content-item h5 {
     width: 80%;
   }
+}
+
+.register {
+  font-size: 25px;
 }

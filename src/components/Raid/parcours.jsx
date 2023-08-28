@@ -16,6 +16,9 @@ export default function Parcours() {
   return (
     <div className="view full-page">
       <h1>Le Parcours</h1>
+      <div className="video-parcours">
+        <iframe className="video" src={data.video} allowFullScreen></iframe>
+      </div>
     </div>
   );
 }
