@@ -108,7 +108,8 @@ export default function InscriptionPage() {
               <div></div>
             )}
             {data.lienBen !== "" ? (
-                <div className="lien">
+              <h1>Pour être bénévole</h1>
+              <div className="lien">
                 <h5>
                   Lien du Google Form pour être bénévole{" "}
                   <i>(Sans vous le Raid ne pourrait pas exister)</i> :{" "}
