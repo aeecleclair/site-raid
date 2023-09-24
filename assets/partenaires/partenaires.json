@@ -1,8 +1,8 @@
 [{
-    "nom": "Croix-Rouge française",
-    "img": "croix_rouge.png",
-    "description": "La Croix-Rouge française (CRF) est une association d'aide humanitaire française fondée en 18641. Elle a pour objectif de venir en aide aux personnes en difficulté en France et à l'étranger. Ses missions fondamentales sont l'urgence, le secourisme, l'action sociale, la formation, la santé et l'action internationale.",
-    "url": "https://www.croix-rouge.fr/"
+    "nom": "Centre Francais de Secourisme",
+    "img": "cfs.png",
+    "description": "Le Centre Français de Secourisme est une association agréée de sécurité civile fondée en 1977. Ses missions principales sont l'exercice des actions de secours sur de nombreux évènements sportifs et culturels, et permettre au plus grand nombre de se former aux gestes de premiers secours. Le CFS recrute : cfsrhone@gmail.com | 06 52 58 35 04",
+    "url": "https://www.cfs.paris"
 }, {
     "nom": "EY",
     "img": "EY.png",
