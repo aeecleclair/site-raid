@@ -88,6 +88,22 @@ export default function InscriptionPage() {
             ) : (
               <></>
             )}
+            {data.lienLydiaTshirt !== "" ? (
+              <div className="lien">
+                <h5>
+                  Lien du Lydia pour payer les Tshirts{" "}
+                  <a
+                    href={data.lienLydiaTshirt}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {data.lienLydiaTshirt}
+                  </a>
+                </h5>
+              </div>
+            ) : (
+              <></>
+            )}
             {data.certificat !== "" ? (
               <div id="button-container">
                 <a
