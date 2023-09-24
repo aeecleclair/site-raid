@@ -91,7 +91,7 @@ export default function InscriptionPage() {
             {data.lienLydiaTshirt !== "" ? (
               <div className="lien">
                 <h5>
-                  Lien du Lydia pour payer les Tshirts{" "}
+                  Lien du Lydia pour payer les Tshirts :{" "}
                   <a
                     href={data.lienLydiaTshirt}
                     target="_blank"
