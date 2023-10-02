@@ -1,8 +1,8 @@
 {
     "lienGGDoc": "",
     "description": ["Les inscriptions sont closes.", "Si vous n'avez pas encore payé, le lien Lydia ci-dessous est encore accessible."],
-    "lienLydia": "",
-    "lienLydiaTshirt": "",
+    "lienLydia": "https://collecte.io/paiement-raid-centrale-lyon-2023-3083346/fr",
+    "lienLydiaTshirt": "https://collecte.io/paiement-t-shirts-du-raid-2023-3258758/fr",
     "lienBen": "",
     "reglement": "Règlement.pdf",
     "certificat": "reglement-certificat-médical.pdf"
