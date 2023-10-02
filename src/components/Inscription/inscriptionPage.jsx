@@ -23,7 +23,7 @@ export default function InscriptionPage() {
       <div className="view under-navbar">
         <div className="inscr-back">
           <div className="inscr-container">
-            <h1>INSCRIPTION (clôture le 30 septemBre)</h1>
+            <h1>INSCRIPTION </h1>
             {data.reglement !== "" ? (
               <div id="button-container">
                 <a
