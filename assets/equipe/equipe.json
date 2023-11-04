@@ -4,21 +4,21 @@
                 "nom": "TAVERNIER",
                 "prenom": "Guillaume",
                 "fonction": "Président",
-                "mail": "guillaume.tavernier@ecl22.ecl-lyon.fr",
+                "mail": "guillaume.tavernier@etu.ec-lyon.fr",
                 "img": "Shaihh.jpg"
             },
             {
                 "nom": "VAGNON",
                 "prenom": "Jules",
                 "fonction": "Secrétaire général",
-                "mail": "jules.vagnon@ecl22.ec-lyon.fr",
+                "mail": "jules.vagnon@etu.ec-lyon.fr",
                 "img": "Khetel.jpg"
             },
             {
                 "nom": "SCHNEIDER",
                 "prenom": "Quentin",
                 "fonction": "Trésorier",
-                "mail": "quentin.schneider@ecl22.ec-lyon.fr",
+                "mail": "quentin.schneider@etu.ec-lyon.fr",
                 "img": "N+8.jpg"
             }
         ]
@@ -29,28 +29,28 @@
                 "nom": "ROUX",
                 "prenom": "Valentin",
                 "fonction": "Responsable Parcours",
-                "mail": "valentin.roux@ecl22.ec-lyon.fr",
+                "mail": "valentin.roux@etu.ec-lyon.fr",
                 "img": "Sapah.jpg"
             },
             {
                 "nom": "RUDANT",
                 "prenom": "Emilie",
                 "fonction": "Responsable Sécurité",
-                "mail": "emilie.rudant@ecl22.ec-lyon.fr",
+                "mail": "emilie.rudant@etu.ec-lyon.fr",
                 "img": "Busterv2.jpg"
             },
             {
                 "nom": "PERROT",
                 "prenom": "Arnaud",
                 "fonction": "VP Log-Parcours",
-                "mail": "arnaud.perrot@ecl22.ec-lyon.fr",
+                "mail": "arnaud.perrot@etu.ec-lyon.fr",
                 "img": "Schibah.jpg"
             },
             {
                 "nom": "HAENSCH",
                 "prenom": "Pierre",
                 "fonction": "VP Parcours",
-                "mail": "pierre.haensch@ecl22.ec-lyon.fr",
+                "mail": "pierre.haensch@etu.ec-lyon.fr",
                 "img": "Hovah.jpg"
             }
         ]
@@ -61,28 +61,28 @@
                 "nom": "ATON",
                 "prenom": "Judicaëlle",
                 "fonction": "Responsable Logistique",
-                "mail": "judicaelle.aton@alternance2022.ec-lyon.fr",
+                "mail": "judicaelle.aton@etu.ec-lyon.fr",
                 "img": "Yophiy.jpg"
             },
             {
                 "nom": "BRISSON",
                 "prenom": "Titouan",
                 "fonction": "VP Logistique",
-                "mail": "titouan.brisson@ecl22.ec-lyon.fr",
+                "mail": "titouan.brisson@etu.ec-lyon.fr",
                 "img": "Mohle.jpg"
             },
             {
                 "nom": "ERCEAU",
                 "prenom": "Marie",
                 "fonction": "VP Logistique",
-                "mail": "marie.erceau@ecl22.ec-lyon.fr",
+                "mail": "marie.erceau@etu.ec-lyon.fr",
                 "img": "Khoqsy.jpg"
             },
             {
                 "nom": "ZABBAN",
                 "prenom": "Aline",
                 "fonction": "VP Logistique",
-                "mail": "aline.zabban@ecl22.ec-lyon.fr",
+                "mail": "aline.zabban@etu.ec-lyon.fr",
                 "img": "Boonthv2.jpg"
             }
         ]
@@ -93,28 +93,28 @@
                 "nom": "CARMONA",
                 "prenom": "Lucile",
                 "fonction": "Responsable Sponsors",
-                "mail": "lucile.carmona@ecl22.ec-lyon.fr",
+                "mail": "lucile.carmona@etu.ec-lyon.fr",
                 "img": "Binny.jpg"
             },
             {
                 "nom": "AMGHAR",
                 "prenom": "Mehdi",
                 "fonction": "VP Sponsors",
-                "mail": "mehdi.amghar@ecl22.ec-lyon.fr",
+                "mail": "mehdi.amghar@etu.ec-lyon.fr",
                 "img": "AMGv2.jpg"
             },
             {
                 "nom": "BAFFOS",
                 "prenom": "Julie",
                 "fonction": "VP Sponsors",
-                "mail": "julie.baffos@ecl22.ec-lyon.fr",
+                "mail": "julie.baffos@etu.ec-lyon.fr",
                 "img": "Lyverh.jpg"
             },
             {
                 "nom": "BALLY",
                 "prenom": "Adeline",
                 "fonction": "VP Sponsors",
-                "mail": "adeline.bally@ecl22.ec-lyon.fr",
+                "mail": "adeline.bally@etu.ec-lyon.fr",
                 "img": "Rabel.jpg"
             }
         ]
@@ -125,14 +125,14 @@
                 "nom": "BARRA",
                 "prenom": "Jules",
                 "fonction": "Responsable Communication",
-                "mail": "jules.barra@ecl22.ec-lyon.fr",
+                "mail": "jules.barra@etu.ec-lyon.fr",
                 "img": "Zoto.jpg"
             },
             {
                 "nom": "FERNANDES",
                 "prenom": "Lucas",
                 "fonction": "VP Communication",
-                "mail": "lucas.fernandes@ecl22.ec-lyon.fr",
+                "mail": "lucas.fernandes@etu.ec-lyon.fr",
                 "img": "Hemoh.jpg"
             }
         ]
