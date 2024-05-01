@@ -5,21 +5,21 @@
                 "prenom": "Erell",
                 "fonction": "Présidente",
                 "mail": "erell.limon-duparcmeur@etu.ec-lyon.fr",
-                "img": "Birdy.jpg"
+                "img": "Birdy2.jpg"
             },
             {
                 "nom": "MAROIS",
                 "prenom": "Viki",
                 "fonction": "Secrétaire générale",
                 "mail": "viki.marois@etu.ec-lyon.fr",
-                "img": "Synhet.jpg"
+                "img": "Synhet2.jpg"
             },
             {
                 "nom": "BAJUL",
                 "prenom": "Kevin",
                 "fonction": "Trésorier",
                 "mail": "kevin.bajul@etu.ec-lyon.fr",
-                "img": "Napé.jpg"
+                "img": "Napé2.jpg"
             }
         ]
     },
@@ -30,28 +30,28 @@
                 "prenom": "Léo",
                 "fonction": "Responsable Parcours",
                 "mail": "leo.duhamel-callot@etu.ec-lyon.fr",
-                "img": "Pahdbolh.jpg"
+                "img": "Pahdbolh2.jpg"
             },
             {
                 "nom": "ELBAZ",
                 "prenom": "Simon",
                 "fonction": "Responsable Sécurité",
                 "mail": "simon.elbaz@etu.ec-lyon.fr",
-                "img": "Passo.jpg"
+                "img": "Passo2.jpg"
             },
             {
                 "nom": "UNAL",
                 "prenom": "Maxime",
                 "fonction": "VP Log-Parcours",
                 "mail": "maxime.unal@etu.ec-lyon.fr",
-                "img": "Hyposs.jpg"
+                "img": "Hyposs2.jpg"
             },
             {
                 "nom": "GUYONVARCH",
                 "prenom": "Thomas",
                 "fonction": "VP Parcours",
                 "mail": "thomas.guyonvarch@etu.ec-lyon.fr",
-                "img": "Sakhram.jpg"
+                "img": "Sakhram2.jpg"
             }
         ]
     },
@@ -62,28 +62,28 @@
                 "prenom": "Jémémie",
                 "fonction": "Responsable Logistique",
                 "mail": "jeremie.hareau@etu.ec-lyon.fr",
-                "img": "Leybro.jpg"
+                "img": "Leybro2.jpg"
             },
             {
                 "nom": "PEYRE",
                 "prenom": "Anthony",
                 "fonction": "VP Logistique",
                 "mail": "anthony.peyre@etu.ec-lyon.fr",
-                "img": "Letoile.jpg"
+                "img": "Letoile2.jpg"
             },
             {
                 "nom": "RUF",
                 "prenom": "Quentin",
                 "fonction": "VP Logistique",
                 "mail": "quentin.ruf@etu.ec-lyon.fr",
-                "img": "Bharby.jpg"
+                "img": "Bharby2.jpg"
             },
             {
                 "nom": "VASSELLE BOSSY",
                 "prenom": "Noémie",
                 "fonction": "VP Logistique",
                 "mail": "noemie.vasselle-bossy@etu.ec-lyon.fr",
-                "img": "Lethai.jpg"
+                "img": "Lethai2.jpg"
             }
         ]
     },
@@ -94,14 +94,14 @@
                 "prenom": "Amel",
                 "fonction": "Responsable Sponsors",
                 "mail": "amel.tebboune@etu.ec-lyon.fr",
-                "img": "Amel.jpg"
+                "img": "Amel2.jpg"
             },
             {
                 "nom": "BERTRAND",
                 "prenom": "Tom",
                 "fonction": "VP Sponsors",
                 "mail": "tom.bertrand@etu.ec-lyon.fr",
-                "img": "Moss.jpg"
+                "img": "Moss2.jpg"
             }
         
         ]
@@ -113,14 +113,14 @@
                 "prenom": "Sidonie",
                 "fonction": "Responsable Communication",
                 "mail": "sidonie.arrive@etu.ec-lyon.fr",
-                "img": "Rayah.jpg"
+                "img": "Rayah2.jpg"
             },
             {
                 "nom": "COVACEVICH",
                 "prenom": "Antonia",
                 "fonction": "VP Communication",
                 "mail": "antonia.covacevich@etu.ec-lyon.fr",
-                "img": "Mokah.jpg"
+                "img": "Mokah2.jpg"
             }
         ]
     }
