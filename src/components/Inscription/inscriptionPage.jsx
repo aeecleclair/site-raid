@@ -56,8 +56,8 @@ export default function InscriptionPage() {
             {data.lienGGDoc !== "" ? (
               <div className="lien">
                 <h5>
-                  Lien du Google Form{" "}
-                  <i>(à ne remplir que par un seul des membres de l'équipe)</i>{" "}
+                  Lien du site d'inscription{" "}
+                  <i>(les deux membres de l'équipe doivent s'inscrire)</i>{" "}
                   :{" "}
                   <a
                     href={data.lienGGDoc}
