@@ -1,8 +1,8 @@
 {
     "lienGGDoc": "https://inscription-raid.myecl.fr/login ",
     "description": ["Les inscriptions sont ouvertes.", " "],
-    "lienLydia": " ",
-    "lienLydiaTshirt": " ",
+    "lienLydia": "",
+    "lienLydiaTshirt": "",
     "lienBen": "",
     "reglement": "Règlement.pdf",
     "certificat": "reglement-certificat-médical.pdf"
