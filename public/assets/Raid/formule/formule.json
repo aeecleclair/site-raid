@@ -1,15 +1,15 @@
 [{
         "nom": "Découverte",
         "description": "Le parcours découverte est destiné à tous ceux qui souhaitent s’initier au trail et au VTT tout en profitant d’un cadre naturel exceptionnel. Il s’adresse en particulier aux personnes qui veulent découvrir le Raid, peu importe leur niveau sportif.",
-        "pdf": "parcours_découverte.pdf"
+        "pdf": "decouverte.pdf"
     },
     {
         "nom": "Sportif",
         "description": "Le parcours sportif s’adresse à tous ceux qui ont une activité sportive régulière et qui souhaitent sortir de leurs habitudes pour se frotter en équipe de deux à un nouveau défi en pleine nature !",
-        "pdf": "parcours_sportif.pdf"
+        "pdf": "sportif.pdf"
     }, {
         "nom": "Expert",
         "description": "Le parcours expert est le plus difficile du Raid Centrale Lyon, avec une distance et un dénivelé redoutables. Il s'adresse avant tout aux sportifs confirmés avec une bonne expérience des efforts d’endurance longue.",
-        "pdf": "parcours_expert.pdf"
+        "pdf": "expert.pdf"
     }
 ]
