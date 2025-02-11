@@ -1,18 +1,18 @@
 [
     {
         "nom": "Inscriptions",
-        "dateDebut": "28/08/2024",
-        "dateFin": "30/09/2024",
+        "dateDebut": "??/??/2025",
+        "dateFin": "??/??/2025",
         "description": "Inscris-toi rapidement pour découvrir une aventure inoubliable ! Attention l’inscription des deux participants du même binôme se fait sur un seul formulaire."
     }, {
         "nom": "Validation des dossiers",
-        "dateDebut": "13/09/2024",
-        "dateFin": "06/10/2024",
+        "dateDebut": "??/??/2025",
+        "dateFin": "??/??/2025",
         "description": "Ton inscription sera validée par mail quand tu auras fourni toutes les pièces justificatives et que tu auras payé."
     }, {
         "nom": "Raid",
-        "dateDebut": "12/10/2024",
-        "dateFin": "13/10/2024",
+        "dateDebut": "11/10/2025",
+        "dateFin": "12/10/2025",
         "description": "C’est le RAAAIIIID !!!!!!"
     }
 ]

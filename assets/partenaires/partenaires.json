@@ -14,9 +14,9 @@
     "description": "Mirova est une société de gestion d'actifs qui propose des solutions d'investissement alliant performance financière et impact environnemental et social. Elle s'attache notamment à défendre la responsabilité dans ses actions; notamment diriger les fonds vers des projets qui s'inscrivent dans une économie soutenable et durable.",
     "url": "https://www.mirova.com/fr"
 }, {
-    "nom": "Éclair",
-    "img": "eclair.png",
-    "description": "ÉCLAIR est l'association d’informatique de l’Ecole Centrale Lyon. Tout d'abord, c'est eux qui sont en charge de tout ce qui rapporte à l'informatique dans le monde associatif : hébergement et création de site, d'application, installation informatique... Ils sont aussi là pour aider sur les gros évènements comme le Gala, le Challenge ou les intercentrales. Au delà de ça, ils sont présents chaque midi pour les centraliens : ils règlent les soucis informatiques et matériels, ils prêtent des PCs, ils vendent du matériel informatique. Enfin, ils organisent des formations en début d'année ouvertes à tous !",
+    "nom": "ÉCLAIR",
+    "img": "ÉCLAIR.svg",
+    "description": "ÉCLAIR est l'association d’informatique de l’École Centrale de Lyon. Tout d'abord, c'est eux qui sont en charge de tout ce qui se rapporte à l'informatique dans le monde associatif : hébergement et création de site, d'application, installation informatique... Ils sont aussi là pour aider sur les gros évènements comme le Gala, le Challenge ou les Inter-Centrales. Au delà de ça, ils sont présents chaque midi pour les Centraliens : ils règlent les soucis informatiques et matériels, ils prêtent des PCs, ils vendent du matériel informatique. Enfin, ils organisent des formations en début d'année ouvertes à tous !",
     "url": ""
 }, {
     "nom": "Forum Perspectives",
