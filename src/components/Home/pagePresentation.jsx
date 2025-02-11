@@ -21,7 +21,7 @@ export default function PagePresentation() {
           <div>
             <iframe
               src={data.url}
-              title="Le Raid en image"
+              title="Le Raid en vidéo"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
