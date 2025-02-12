@@ -19,16 +19,13 @@ export default function PagePresentation() {
       <div className="pres">
         <div className="video">
           <div>
-            {/* <iframe
+            <iframe
               src={data.url}
               title="Le Raid en vidéo"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-            ></iframe> */}
-            <video controls>
-              <source src={data.url} type="video/mp4"/>
-            </video>
+            ></iframe>
           </div>
         </div>
         <div />
