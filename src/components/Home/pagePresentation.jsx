@@ -26,8 +26,8 @@ export default function PagePresentation() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe> */}
-            <video controls preload="none" width="100%" poster={data.url + "/preview"}>
-              <source src= {data.url + "/download"} type="video/mp4"/>
+            <video controls>
+              <source src= {data.url} type="video/mp4"/>
             </video>
           </div>
         </div>
