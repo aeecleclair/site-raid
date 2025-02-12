@@ -27,7 +27,7 @@ export default function PagePresentation() {
               allowFullScreen
             ></iframe> */}
             <video controls>
-              <source src= {data.url} type="video/mp4"/>
+              <source src={data.url} type="video/mp4"/>
             </video>
           </div>
         </div>
