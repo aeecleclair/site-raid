@@ -1,126 +1,127 @@
 [{
         "pole": "Bureau",
         "membres": [{
-                "nom": "LIMON DUPARCMEUR",
-                "prenom": "Erell",
-                "fonction": "Présidente",
-                "mail": "erell.limon-duparcmeur@etu.ec-lyon.fr",
-                "img": "Birdy2.jpg"
+                "nom": "REINER",
+                "prenom": "Clément",
+                "fonction": "Président",
+                "mail": "clement.reiner@etu.ec-lyon.fr",
+                "img": "Tchyouw.png"
             },
             {
-                "nom": "MAROIS",
-                "prenom": "Viki",
-                "fonction": "Secrétaire générale",
-                "mail": "viki.marois@etu.ec-lyon.fr",
-                "img": "Synhet2.jpg"
+                "nom": "LACHARD",
+                "prenom": "Alexandre",
+                "fonction": "Secrétaire général",
+                "mail": "alexandre.lachard@etu.ec-lyon.fr",
+                "img": "Rhyder.png"
             },
             {
-                "nom": "BAJUL",
-                "prenom": "Kevin",
+                "nom": "AUDEBERT",
+                "prenom": "Robin",
                 "fonction": "Trésorier",
-                "mail": "kevin.bajul@etu.ec-lyon.fr",
-                "img": "Napé2.jpg"
+                "mail": "robin.audebert@etu.ec-lyon.fr",
+                "img": "nawak.png"
             }
         ]
     },
     {
         "pole": "Parcours",
         "membres": [{
-                "nom": "DUHAMEL-CALLOT",
-                "prenom": "Léo",
+                "nom": "TRAN",
+                "prenom": "Evan",
                 "fonction": "Responsable Parcours",
-                "mail": "leo.duhamel-callot@etu.ec-lyon.fr",
-                "img": "Pahdbolh2.jpg"
+                "mail": "evan.tran@etu.ec-lyon.fr",
+                "img": "Blithzen.png"
             },
             {
-                "nom": "ELBAZ",
-                "prenom": "Simon",
+                "nom": "ZAMBLERA",
+                "prenom": "Paul",
                 "fonction": "Responsable Sécurité",
-                "mail": "simon.elbaz@etu.ec-lyon.fr",
-                "img": "Passo2.jpg"
+                "mail": "paul.zamblera@etu.ec-lyon.fr",
+                "img": "bali.png"
             },
             {
-                "nom": "UNAL",
-                "prenom": "Maxime",
-                "fonction": "VP Log-Parcours",
-                "mail": "maxime.unal@etu.ec-lyon.fr",
-                "img": "Hyposs2.jpg"
-            },
-            {
-                "nom": "GUYONVARCH",
-                "prenom": "Thomas",
+                "nom": "BARRE",
+                "prenom": "Samuel",
                 "fonction": "VP Parcours",
-                "mail": "thomas.guyonvarch@etu.ec-lyon.fr",
-                "img": "Sakhram2.jpg"
-            }
+                "mail": "samuel.barre@etu.ec-lyon.fr",
+                "img": "sirius.png"
+            },
+            {
+                "nom": "BOURGUIGNON",
+                "prenom": "Mathis",
+                "fonction": "VP Bénévoles",
+                "mail": "mathis.bourguignon@etu.ec-lyon.fr",
+                "img": "izôss.png"
+            },
+
         ]
     },
     {
         "pole": "Logistique",
         "membres": [{
-                "nom": "HAREAU",
-                "prenom": "Jémémie",
+                "nom": "ROY",
+                "prenom": "Paul-Emile",
                 "fonction": "Responsable Logistique",
-                "mail": "jeremie.hareau@etu.ec-lyon.fr",
-                "img": "Leybro2.jpg"
+                "mail": "paul-emile.roy@etu.ec-lyon.fr",
+                "img": "draji.png"
             },
             {
-                "nom": "PEYRE",
-                "prenom": "Anthony",
+                "nom": "GUILLOUX",
+                "prenom": "Damien",
                 "fonction": "VP Logistique",
-                "mail": "anthony.peyre@etu.ec-lyon.fr",
-                "img": "Letoile2.jpg"
+                "mail": "damien.guilloux@etu.ec-lyon.fr",
+                "img": "turnerh"
             },
             {
-                "nom": "RUF",
-                "prenom": "Quentin",
+                "nom": "LOPEZ",
+                "prenom": "Pierre",
                 "fonction": "VP Logistique",
-                "mail": "quentin.ruf@etu.ec-lyon.fr",
-                "img": "Bharby2.jpg"
+                "mail": "pierre.lopez@etu.ec-lyon.fr",
+                "img": "picsou.png"
             },
             {
-                "nom": "VASSELLE BOSSY",
-                "prenom": "Noémie",
+                "nom": "HALAOUATI",
+                "prenom": "Yassin",
                 "fonction": "VP Logistique",
-                "mail": "noemie.vasselle-bossy@etu.ec-lyon.fr",
-                "img": "Lethai2.jpg"
+                "mail": "yassin.halaouati@etu.ec-lyon.fr",
+                "img": "lèthe.png"
             }
         ]
     },
     {
         "pole": "Sponsors",
         "membres": [{
-                "nom": "TEBBOUNE",
-                "prenom": "Amel",
+                "nom": "VEZINET",
+                "prenom": "Maxime",
                 "fonction": "Responsable Sponsors",
-                "mail": "amel.tebboune@etu.ec-lyon.fr",
-                "img": "Amel2.jpg"
+                "mail": "maxime.vezinet@etu.ec-lyon.fr",
+                "img": "genak.png"
             },
             {
-                "nom": "BERTRAND",
-                "prenom": "Tom",
+                "nom": "LE GALL",
+                "prenom": "Marion",
                 "fonction": "VP Sponsors",
-                "mail": "tom.bertrand@etu.ec-lyon.fr",
-                "img": "Moss2.jpg"
-            }
+                "mail": "marion.de-gall@etu.ec-lyon.fr",
+                "img": "kuci.png"
+            },
         
         ]
     },
     {
         "pole": "Communication",
         "membres": [{
-                "nom": "ARRIVE",
-                "prenom": "Sidonie",
+                "nom": "ZAMPARO",
+                "prenom": "Mathieu",
                 "fonction": "Responsable Communication",
-                "mail": "sidonie.arrive@etu.ec-lyon.fr",
-                "img": "Rayah2.jpg"
+                "mail": "mathieu.zamparo@etu.ec-lyon.fr",
+                "img": "Mothy.png"
             },
             {
-                "nom": "COVACEVICH",
-                "prenom": "Antonia",
+                "nom": "SAVAZZI",
+                "prenom": "Benoit",
                 "fonction": "VP Communication",
-                "mail": "antonia.covacevich@etu.ec-lyon.fr",
-                "img": "Mokah2.jpg"
+                "mail": "benoit.savazzi@etu.ec-lyon.fr",
+                "img": "rùss.png"
             }
         ]
     }
