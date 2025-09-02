@@ -1,7 +1,7 @@
 [{
         "nom": "Découverte",
         "description": "Le parcours découverte est destiné à tous ceux qui souhaitent s’initier au trail et au VTT tout en profitant d’un cadre naturel exceptionnel. Il s’adresse en particulier aux personnes qui veulent découvrir le Raid, peu importe leur niveau sportif.",
-        "pdf": "decouverte.pdf"
+        "pdf": "Parcours_decouverte2.pdf"
     },
     {
         "nom": "Sportif",
@@ -13,3 +13,4 @@
         "pdf": "expert.pdf"
     }
 ]
+
