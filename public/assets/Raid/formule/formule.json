@@ -6,11 +6,12 @@
     {
         "nom": "Sportif",
         "description": "Le parcours sportif s’adresse à tous ceux qui ont une activité sportive régulière et qui souhaitent sortir de leurs habitudes pour se frotter en équipe de deux à un nouveau défi en pleine nature !",
-        "pdf": "sportif.pdf"
+        "pdf": "Parcours_sportif.pdf"
     }, {
         "nom": "Expert",
         "description": "Le parcours expert est le plus difficile du Raid Centrale Lyon, avec une distance et un dénivelé redoutables. Il s'adresse avant tout aux sportifs confirmés avec une bonne expérience des efforts d’endurance longue.",
-        "pdf": "expert.pdf"
+        "pdf": "Parcours_expert.pdf"
     }
 ]
+
 
