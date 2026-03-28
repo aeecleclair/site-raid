@@ -27,7 +27,7 @@ export default function AvantGout() {
               <h1>DEVENIR PARTENAIRE</h1>
               <h5>{data.intro}</h5>
               <h5>
-                Votre Contact : {data.prenom} {data.nom} - {data.tel} -{" "}
+                Votre Contact : {data.prenom} {data.nom} - {" "}
                 <a href={"mailto:" + data.mail}>{data.mail}</a>
               </h5>
             </div>
