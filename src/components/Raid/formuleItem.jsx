@@ -36,11 +36,11 @@ export default function FormuleItem(props) {
             zIndex: 10 
           }}
         >
-          <a className="learn-more" > {/*href={process.env.PUBLIC_URL + "assets/Raid/formule/pdf/" + props.pdf}*/}
+          <a className="learn-more" href={process.env.PUBLIC_URL + "assets/Raid/formule/pdf/" + props.pdf}>
             <span className="circle" aria-hidden="true">
               <span className="icon arrow"></span>
             </span>
-            <span className="button-text">Plus d'information bientôt</span>
+            <span className="button-text">Cliquez ici pour plus d'infos</span>
           </a>
         </div>
       </div>
