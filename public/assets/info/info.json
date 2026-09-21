@@ -3,7 +3,7 @@
     "faq":
     [{
         "question": "Combien coûte le RAID Centrale Lyon cette année?",
-        "reponse": "Les prix sont encore à définir pour l'édition 2026, mais il faut généralement compter sur 100€, logement, repas et transport en bus depuis Lyon ou Ecully inclus"
+        "reponse": "Cette année, le RAID coûte 130€ pour les étudiants, 80€ pour les boursiers (donner une notification lors de l'inscription) et 160€ pour les autres. Le logement, le repas et le transport en bus depuis Lyon ou Ecully sont notamment inclus dans ce prix."
     },
     {
         "question": "De quel matériel a-t-on besoin pour le Raid Centrale Lyon ?",
@@ -11,10 +11,10 @@
     },
     {
         "question": "Quel matétiel est fournis par le Raid ?",
-        "reponse": "Nous fournissons :\n - Les VTT\n - Les casques\n - Les tentes\n - Les dossards et les roadbook. Il vous faudra un chèque de caution de 100€ pour prévenir toute casse sur ce matériel"
+        "reponse": "Nous fournissons :\n - Les VTT\n - Les casques\n - Les tentes\n - Les dossards et les roadbook."
      },
     {
         "question": "Quel type de certificat médical est nécessaire ?",
-        "reponse": "Types de certificats médicaux valides :\n - Un certificat médical de non contre - indication à la pratique en compétition du trail et du VTT\n - Un certificat médical de non contre - indication à la pratique des raids en compétition\n - Un certificat médical de non contre - indication à la pratique en compétition du triathlon\n - Pour les étudiants de Centrale Lyon, le certificat médical du BDS, à condition que les mentions \"Course d'orientation\", \"Cyclisme - VTT\" et \"Rando Raid\" ne soient pas rayées.\nTous les certificats doivent dater de moins d'un an.\nAttention! Un certificat médical précisant uniquement une non contre - indication à la course à pied ne sera pas suffisant!"
+        "reponse": "Types de certificats médicaux valides :\n - Un certificat médical de non contre - indication à la pratique en compétition du trail et du VTT\n - Un certificat médical de non contre - indication à la pratique des raids en compétition\n - Un certificat médical de non contre - indication à la pratique en compétition du triathlon\n Tous les certificats doivent dater de moins d'un an.\nAttention! Un certificat médical précisant uniquement une non contre - indication à la course à pied ne sera pas suffisant!"
     }
 ]}
