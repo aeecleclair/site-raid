@@ -123,25 +123,6 @@ export default function InscriptionPage() {
             ) : (
               <div></div>
             )}
-            {data.lienGGSheetsBinome !== "" ? (
-              <div className="lien">
-              <h1>Trouver un binôme</h1>
-                <h5>
-                  Des problèmes pour trouver un binôme ? {" "}
-                  <i>Trouve ton partenaire en t'inscrivant sur ce</i>{" "}
-                  <a
-                    href={data.lienGGSheetsBinome}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i>Google Sheets</i>
-                  </a>
-                  <div style={{ 'height': "60px" }}></div>
-                </h5>
-              </div>
-            ) : (
-              <></>
-            )}
             {data.lienBen !== "" ? (
               <div className="lien">
               <h1>Pour être Bénévole</h1>
@@ -154,6 +135,25 @@ export default function InscriptionPage() {
                     rel="noopener noreferrer"
                   >
                     {data.lienBen}
+                  </a>
+                  <div style={{ 'height': "60px" }}></div>
+                </h5>
+              </div>
+            ) : (
+              <></>
+            )}
+            {data.lienGGSheetsBinome !== "" ? (
+              <div className="lien">
+              <h1>Trouver un binôme</h1>
+                <h5>
+                  Des problèmes pour trouver un binôme ? {" "}
+                  <i>Trouve ton partenaire en t'inscrivant sur ce</i>{" "}
+                  <a
+                    href={data.lienGGSheetsBinome}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i>Google Sheets</i>
                   </a>
                   <div style={{ 'height': "60px" }}></div>
                 </h5>
